@@ -1,6 +1,6 @@
 {
   "id": "admin-orgs",
-  "name": "Admin Orgs MCP",
+  "name": "Admin Orgs",
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin Orgs.md",

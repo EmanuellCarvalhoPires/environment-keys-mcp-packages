@@ -1,6 +1,6 @@
 {
   "id": "jira-v3",
-  "name": "Jira Cloud MCP",
+  "name": "Jira Cloud",
   "tag": "api/app/jira",
   "logo": "jira",
   "index": "MCP - Jira v3.md",

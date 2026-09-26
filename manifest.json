@@ -3,7 +3,7 @@
   "packages": [
     {
       "id": "jsm-assets",
-      "name": "JSM Assets MCP",
+      "name": "JSM Assets",
       "tag": "api/app/assets",
       "logo": "assets",
       "path": "packages/jsm-assets",
@@ -15,7 +15,7 @@
     },
     {
       "id": "automation",
-      "name": "Automation MCP",
+      "name": "Automation",
       "tag": "api/app/automation",
       "logo": "atlassian",
       "path": "packages/automation",
@@ -27,7 +27,7 @@
     },
     {
       "id": "bitbucket",
-      "name": "Bitbucket MCP",
+      "name": "Bitbucket",
       "tag": "api/app/bitbucket",
       "logo": "bitbucket",
       "path": "packages/bitbucket",
@@ -39,7 +39,7 @@
     },
     {
       "id": "confluence-v1",
-      "name": "Confluence MCP (v1)",
+      "name": "Confluence",
       "tag": "api/app/confluence",
       "logo": "confluence",
       "path": "packages/confluence-v1",
@@ -47,11 +47,12 @@
       "requestOnlyCount": 9,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 130
+      "requestCount": 130,
+      "groupId": "confluence"
     },
     {
       "id": "confluence-v2",
-      "name": "Confluence MCP (v2)",
+      "name": "Confluence",
       "tag": "api/app/confluence",
       "logo": "confluence",
       "path": "packages/confluence-v2",
@@ -59,11 +60,12 @@
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 218
+      "requestCount": 218,
+      "groupId": "confluence"
     },
     {
       "id": "csm",
-      "name": "CSM MCP",
+      "name": "CSM",
       "tag": "api/app/csm",
       "logo": "csm",
       "path": "packages/csm",
@@ -75,7 +77,7 @@
     },
     {
       "id": "forms",
-      "name": "Forms MCP",
+      "name": "Forms",
       "tag": "api/app/forms",
       "logo": "atlassian",
       "path": "packages/forms",
@@ -87,7 +89,7 @@
     },
     {
       "id": "jsm",
-      "name": "JSM MCP",
+      "name": "JSM",
       "tag": "api/app/jsm",
       "logo": "jsm",
       "path": "packages/jsm",
@@ -99,7 +101,7 @@
     },
     {
       "id": "jsm-ops",
-      "name": "JSM Ops MCP",
+      "name": "JSM Ops",
       "tag": "api/app/jsm-ops",
       "logo": "jsm",
       "path": "packages/jsm-ops",
@@ -111,7 +113,7 @@
     },
     {
       "id": "jsw",
-      "name": "Jira Software MCP",
+      "name": "Jira Software",
       "tag": "api/app/jira-software",
       "logo": "jira",
       "path": "packages/jsw",
@@ -123,7 +125,7 @@
     },
     {
       "id": "jira-v3",
-      "name": "Jira Cloud MCP",
+      "name": "Jira Cloud",
       "tag": "api/app/jira",
       "logo": "jira",
       "path": "packages/jira-v3",
@@ -135,7 +137,7 @@
     },
     {
       "id": "scim",
-      "name": "SCIM MCP",
+      "name": "SCIM",
       "tag": "api/app/scim",
       "logo": "admin",
       "path": "packages/scim",
@@ -147,7 +149,7 @@
     },
     {
       "id": "trello",
-      "name": "Trello MCP",
+      "name": "Trello",
       "tag": "api/app/trello",
       "logo": "trello",
       "path": "packages/trello",
@@ -157,7 +159,7 @@
     },
     {
       "id": "admin-api-access",
-      "name": "Admin API Access MCP",
+      "name": "Admin API Access",
       "tag": "api/app/admin",
       "logo": "admin",
       "path": "packages/admin-api-access",
@@ -169,7 +171,7 @@
     },
     {
       "id": "admin-control",
-      "name": "Admin Control MCP",
+      "name": "Admin Control",
       "tag": "api/app/admin",
       "logo": "admin",
       "path": "packages/admin-control",
@@ -181,7 +183,7 @@
     },
     {
       "id": "admin-dlp",
-      "name": "Admin DLP MCP",
+      "name": "Admin DLP",
       "tag": "api/app/admin",
       "logo": "admin",
       "path": "packages/admin-dlp",
@@ -193,7 +195,7 @@
     },
     {
       "id": "admin-orgs",
-      "name": "Admin Orgs MCP",
+      "name": "Admin Orgs",
       "tag": "api/app/admin",
       "logo": "admin",
       "path": "packages/admin-orgs",
@@ -205,7 +207,7 @@
     },
     {
       "id": "admin-users",
-      "name": "Admin Users MCP",
+      "name": "Admin Users",
       "tag": "api/app/admin",
       "logo": "admin",
       "path": "packages/admin-users",

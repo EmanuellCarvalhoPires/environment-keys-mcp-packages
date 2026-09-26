@@ -1,6 +1,6 @@
 {
   "id": "scim",
-  "name": "SCIM MCP",
+  "name": "SCIM",
   "tag": "api/app/scim",
   "logo": "admin",
   "index": "MCP - SCIM.md",

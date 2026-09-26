@@ -1,6 +1,6 @@
 {
   "id": "admin-users",
-  "name": "Admin Users MCP",
+  "name": "Admin Users",
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin Users.md",

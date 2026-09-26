@@ -1,6 +1,6 @@
 {
   "id": "admin-control",
-  "name": "Admin Control MCP",
+  "name": "Admin Control",
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin Control.md",

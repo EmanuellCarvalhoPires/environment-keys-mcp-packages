@@ -1,6 +1,6 @@
 {
   "id": "admin-api-access",
-  "name": "Admin API Access MCP",
+  "name": "Admin API Access",
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin API Access.md",

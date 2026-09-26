@@ -1,6 +1,6 @@
 {
   "id": "admin-dlp",
-  "name": "Admin DLP MCP",
+  "name": "Admin DLP",
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin DLP.md",
