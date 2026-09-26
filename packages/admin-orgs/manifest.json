@@ -1,0 +1,193 @@
+{
+  "id": "admin-orgs",
+  "name": "Admin Orgs MCP",
+  "tag": "api/app/admin",
+  "logo": "atlassian",
+  "index": "MCP - Admin Orgs.md",
+  "files": [
+    {
+      "path": "MCP - Admin Orgs.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Admin Orgs - Add Resource to Policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Add user to group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Assign organization-level role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Create a policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Create group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Delete Policy Resource.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Delete a policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Delete group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get a policy by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get an event by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get an organization by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get count of users in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get details of a user in a directory.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get directories in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get domain by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get domains in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get group details.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get group role assignments.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get group stats.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get list of event actions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get list of policies.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get list of workspaces.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get managed accounts in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get the count of groups in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get user role assignments.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Get user stats in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Grant access to group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Grant user access.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Invite users to an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Poll audit log events.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Query audit log events.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Remove access from group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Remove organization-level role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Remove user from directory.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Remove user from group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Restore user access in directory.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Revoke user access.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Search for groups in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Search for users in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Suspend user access in directory.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Update Policy Resource.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Update a policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - User’s last active dates.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Orgs - Validate Policy.md",
+      "kind": "request-only"
+    }
+  ]
+}

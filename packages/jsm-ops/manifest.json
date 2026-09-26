@@ -1,0 +1,973 @@
+{
+  "id": "jsm-ops",
+  "name": "JSM Ops MCP",
+  "tag": "api/app/jsm-ops",
+  "logo": "atlassian",
+  "index": "MCP - JSM Ops.md",
+  "files": [
+    {
+      "path": "MCP - JSM Ops.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/JSM Ops - Acknowledge alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Activate contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add alert note.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add attachment to alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add extra properties to alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add members to stakeholder group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add responder to alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Add tags to alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Assign alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Assign custom user role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Batch process draft components.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Bulk create stakeholders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Bulk delete stakeholders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Cancel global maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Cancel team maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Change routing rule order.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Change the order of global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Change the order of team policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Check if Status page name is unique.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Check if stakeholder group name is unique.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Check if subdomain is available.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Close alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create JEC Channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create custom user role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create draft page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create escalation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create forwarding rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create global maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create heartbeat.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create incident.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create integration action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create integration.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create notification rule step.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create notification rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create override.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create rotation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create routing rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create schedule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create stakeholder group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create stakeholder.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create subscriber.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create sync action group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create sync action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create sync.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create team maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create team policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Create team role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Deactivate contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete JEC channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete a team role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete alert note.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete attachment.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete custom user role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete draft page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete escalation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete extra properties from alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete forwarding rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete global alert policy (DELETE).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete heartbeat.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete integration action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete integration.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete notification rule step.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete notification rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete override.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete page permanently (alias).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete rotation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete routing rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete schedule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete stakeholder group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete stakeholder.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete subscribers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete sync action group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete sync action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete sync.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete tags from alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Delete team maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Deletes global maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Disable the global alert policy (POST).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Disable the global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Enable Operations in team.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Enable the global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Enable the team policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Escalate alert to next.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Execute custom action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Export on-call responders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Export schedule timeline.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get JEC channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get Team role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get a paginated list of components in draft for the status page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get alert by alias.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get assignments by stakeholder with pagination.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get attachment download URL.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get audit Logs.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get component uptime percentage.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get component with uptime.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get components uptime for page with pagination.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get components uptime for page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get custom user role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get draft page by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get draft page by name.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get escalation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get flattened stakeholders list.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get forwarding rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get global maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get incident by various identifiers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get incident template.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get integration action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get integration alert filter.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get integration.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get memberships by group ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get notification rule step.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get notification rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get override.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get page by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get page by name.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get page summary details.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get page uptime percentage.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get pages summary by cloud ID V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get pages summary by cloud ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get request status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get rotation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get routing rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get schedule timeline.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get schedule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder by various identifiers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder group by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder group with memberships.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder groups by membership.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder groups by name.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder groups with memberships.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholder groups with stakeholders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholders by ARI list.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholders by assignment with pagination.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get stakeholders from similar incidents.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get status of a team request.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get subscription stats.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get sync action group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get sync action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get sync.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get team maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get team policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get total subscribers in cloud.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Get unique subdomain suggestion.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List JEC channels.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List Team roles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List alert logs.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List alert notes.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List alerts.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List attachments for alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List components in draft for a status page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List contacts.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List custom user roles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List escalations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List forwarding rules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List global alert policies.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List global maintenances.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List heartbeats.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List incident templates.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List incidents with pagination.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List incidents.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List integration actions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List integrations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List next on-call responders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List notification rule steps.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List notification rules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List on-call responders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List overrides.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List rotations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List routing rules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List schedules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List stakeholders.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List subscribers with pagination and filters.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List subscribers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List sync action groups.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List sync actions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List syncs.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List team maintenances.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List team policies.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - List teams.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Permanently delete page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Ping Heartbeat.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Publish draft page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Put global alert policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Put team policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Recover deleted page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Recover page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Remove members from stakeholder group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Remove multiple stakeholder groups.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Remove stakeholder assignment.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Reorder integration action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Reorder sync action group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Reorder sync action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Resend stakeholder invite.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Send JEC Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Snooze alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Soft delete page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Unacknowledge alert.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Unpublish page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Unsubscribe.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update alert description.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update alert message.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update alert note.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update alert priority.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update contact.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update custom user role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update draft page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update escalation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update forwarding rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update global maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update heartbeat.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update incident.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update integration action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update integration alert filter.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update integration.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update notification rule step.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update notification rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update override.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update page.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update rotation.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update routing rule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update schedule.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update stakeholder group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update stakeholder.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update sync action group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update sync action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update sync.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update team maintenance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Update team role.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM Ops - Validate subscriber token.md",
+      "kind": "request-only"
+    }
+  ]
+}

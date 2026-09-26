@@ -1,0 +1,97 @@
+{
+  "id": "admin-api-access",
+  "name": "Admin API Access MCP",
+  "tag": "api/app/admin",
+  "logo": "atlassian",
+  "index": "MCP - Admin API Access.md",
+  "files": [
+    {
+      "path": "MCP - Admin API Access.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Admin API Access - Bulk revoke API tokens in an organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Create a service account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Create an OAuth client.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Delete a service account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Delete an OAuth client.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get API key count in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get API token count in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get API tokens for a service account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get API tokens for all service accounts in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get OAuth client count in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get OAuth clients for a service account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get OAuth clients for all service accounts in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get all API keys in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get all API tokens in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get all OAuth clients in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get an OAuth client.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Get service account API token count in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - List service accounts in an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Revoke all API tokens for a service account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Revoke an API key for an org.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin API Access - Update a service account.md",
+      "kind": "request-only"
+    }
+  ]
+}

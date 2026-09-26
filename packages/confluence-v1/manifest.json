@@ -1,0 +1,1501 @@
+{
+  "id": "confluence-v1",
+  "name": "Confluence MCP (v1)",
+  "tag": "api/app/confluence",
+  "logo": "atlassian",
+  "index": "MCP - Confluence v1.md",
+  "files": [
+    {
+      "path": "MCP - Confluence v1.md",
+      "kind": "index"
+    },
+    {
+      "path": "Tools/confluence_v1_add_content_watcher.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_content_watcher",
+      "title": "Confluence v1 - Add content watcher",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add content watcher.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_group_to_content_restriction.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_group_to_content_restriction",
+      "title": "Confluence v1 - Add group to content restriction",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add group to content restriction.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_label_watcher.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_label_watcher",
+      "title": "Confluence v1 - Add label watcher",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add label watcher.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_labels_to_a_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_labels_to_a_space",
+      "title": "Confluence v1 - Add labels to a space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add labels to a space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_labels_to_content.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_labels_to_content",
+      "title": "Confluence v1 - Add labels to content",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add labels to content.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_member_to_group_by_groupid.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_member_to_group_by_groupid",
+      "title": "Confluence v1 - Add member to group by groupId",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add member to group by groupId.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_new_custom_content_permission_to_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_new_custom_content_permission_to_space",
+      "title": "Confluence v1 - Add new custom content permission to space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add new custom content permission to space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_new_permission_to_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_new_permission_to_space",
+      "title": "Confluence v1 - Add new permission to space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add new permission to space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_restrictions.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_restrictions",
+      "title": "Confluence v1 - Add restrictions",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add restrictions.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_space_watcher.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_space_watcher",
+      "title": "Confluence v1 - Add space watcher",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add space watcher.md"
+    },
+    {
+      "path": "Tools/confluence_v1_add_user_to_content_restriction.md",
+      "kind": "tool",
+      "name": "confluence_v1_add_user_to_content_restriction",
+      "title": "Confluence v1 - Add user to content restriction",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Add user to content restriction.md"
+    },
+    {
+      "path": "Tools/confluence_v1_archive_pages.md",
+      "kind": "tool",
+      "name": "confluence_v1_archive_pages",
+      "title": "Confluence v1 - Archive pages",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Archive pages.md"
+    },
+    {
+      "path": "Tools/confluence_v1_asynchronously_convert_content_body.md",
+      "kind": "tool",
+      "name": "confluence_v1_asynchronously_convert_content_body",
+      "title": "Confluence v1 - Asynchronously convert content body",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Asynchronously convert content body.md"
+    },
+    {
+      "path": "Tools/confluence_v1_check_content_permissions.md",
+      "kind": "tool",
+      "name": "confluence_v1_check_content_permissions",
+      "title": "Confluence v1 - Check content permissions",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Check content permissions.md"
+    },
+    {
+      "path": "Tools/confluence_v1_copy_page_hierarchy.md",
+      "kind": "tool",
+      "name": "confluence_v1_copy_page_hierarchy",
+      "title": "Confluence v1 - Copy page hierarchy",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Copy page hierarchy.md"
+    },
+    {
+      "path": "Tools/confluence_v1_copy_single_page.md",
+      "kind": "tool",
+      "name": "confluence_v1_copy_single_page",
+      "title": "Confluence v1 - Copy single page",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Copy single page.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_asynchronous_content_body_conversion_tasks.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_asynchronous_content_body_conversion_tasks",
+      "title": "Confluence v1 - Create asynchronous content body conversion tasks in bulk",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create asynchronous content body conversion tasks in bulk.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_audit_record.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_audit_record",
+      "title": "Confluence v1 - Create audit record",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create audit record.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_content_template.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_content_template",
+      "title": "Confluence v1 - Create content template",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create content template.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_new_user_group.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_new_user_group",
+      "title": "Confluence v1 - Create new user group",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create new user group.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_private_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_private_space",
+      "title": "Confluence v1 - Create private space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create private space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_relationship.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_relationship",
+      "title": "Confluence v1 - Create relationship",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create relationship.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_space",
+      "title": "Confluence v1 - Create space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_create_user_property_by_key.md",
+      "kind": "tool",
+      "name": "confluence_v1_create_user_property_by_key",
+      "title": "Confluence v1 - Create user property by key",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Create user property by key.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_content_version.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_content_version",
+      "title": "Confluence v1 - Delete content version",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete content version.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_page_tree.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_page_tree",
+      "title": "Confluence v1 - Delete page tree",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete page tree.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_relationship.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_relationship",
+      "title": "Confluence v1 - Delete relationship",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete relationship.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_restrictions.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_restrictions",
+      "title": "Confluence v1 - Delete restrictions",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete restrictions.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_space",
+      "title": "Confluence v1 - Delete space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_user_group.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_user_group",
+      "title": "Confluence v1 - Delete user group",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete user group.md"
+    },
+    {
+      "path": "Tools/confluence_v1_delete_user_property.md",
+      "kind": "tool",
+      "name": "confluence_v1_delete_user_property",
+      "title": "Confluence v1 - Delete user property",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Delete user property.md"
+    },
+    {
+      "path": "Tools/confluence_v1_find_relationship_from_source_to_target.md",
+      "kind": "tool",
+      "name": "confluence_v1_find_relationship_from_source_to_target",
+      "title": "Confluence v1 - Find relationship from source to target",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Find relationship from source to target.md"
+    },
+    {
+      "path": "Tools/confluence_v1_find_source_entities_related_to_a_target_entity.md",
+      "kind": "tool",
+      "name": "confluence_v1_find_source_entities_related_to_a_target_entity",
+      "title": "Confluence v1 - Find source entities related to a target entity",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Find source entities related to a target entity.md"
+    },
+    {
+      "path": "Tools/confluence_v1_find_target_entities_related_to_a_source_entity.md",
+      "kind": "tool",
+      "name": "confluence_v1_find_target_entities_related_to_a_source_entity",
+      "title": "Confluence v1 - Find target entities related to a source entity",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Find target entities related to a source entity.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_anonymous_user.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_anonymous_user",
+      "title": "Confluence v1 - Get anonymous user",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get anonymous user.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_asynchronous_content_body_conversion_task_resu.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_asynchronous_content_body_conversion_task_resu",
+      "title": "Confluence v1 - Get asynchronous content body conversion task result in bulk",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get asynchronous content body conversion task result in bulk.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_asynchronously_converted_content_body_from_the.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_asynchronously_converted_content_body_from_the",
+      "title": "Confluence v1 - Get asynchronously converted content body from the id or the current status of the task",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get asynchronously converted content body from the id or the current status of the task.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_audit_records.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_audit_records",
+      "title": "Confluence v1 - Get audit records",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get audit records.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_audit_records_for_time_period.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_audit_records_for_time_period",
+      "title": "Confluence v1 - Get audit records for time period",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get audit records for time period.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_blueprint_templates.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_blueprint_templates",
+      "title": "Confluence v1 - Get blueprint templates",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get blueprint templates.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_descendants.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_descendants",
+      "title": "Confluence v1 - Get content descendants",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content descendants.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_descendants_by_type.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_descendants_by_type",
+      "title": "Confluence v1 - Get content descendants by type",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content descendants by type.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_in_space_with_given_content_state.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_in_space_with_given_content_state",
+      "title": "Confluence v1 - Get content in space with given content state",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content in space with given content state.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_restriction_status_for_group.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_restriction_status_for_group",
+      "title": "Confluence v1 - Get content restriction status for group",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content restriction status for group.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_restriction_status_for_user.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_restriction_status_for_user",
+      "title": "Confluence v1 - Get content restriction status for user",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content restriction status for user.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_state.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_state",
+      "title": "Confluence v1 - Get content state",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content state.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_state_settings_for_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_state_settings_for_space",
+      "title": "Confluence v1 - Get content state settings for space",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content state settings for space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_template.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_template",
+      "title": "Confluence v1 - Get content template",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content template.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_templates.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_templates",
+      "title": "Confluence v1 - Get content templates",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content templates.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_content_watch_status.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_content_watch_status",
+      "title": "Confluence v1 - Get content watch status",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get content watch status.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_current_user.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_current_user",
+      "title": "Confluence v1 - Get current user",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get current user.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_custom_content_states.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_custom_content_states",
+      "title": "Confluence v1 - Get Custom Content States",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get Custom Content States.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_global_theme.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_global_theme",
+      "title": "Confluence v1 - Get global theme",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get global theme.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_group.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_group",
+      "title": "Confluence v1 - Get group",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get group.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_group_members.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_group_members",
+      "title": "Confluence v1 - Get group members",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get group members.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_group_memberships_for_user.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_group_memberships_for_user",
+      "title": "Confluence v1 - Get group memberships for user",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get group memberships for user.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_groups.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_groups",
+      "title": "Confluence v1 - Get groups",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get groups.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_label_information.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_label_information",
+      "title": "Confluence v1 - Get label information",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get label information.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_label_watch_status.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_label_watch_status",
+      "title": "Confluence v1 - Get label watch status",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get label watch status.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_long_running_task.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_long_running_task",
+      "title": "Confluence v1 - Get long-running task",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get long-running task.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_long_running_tasks.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_long_running_tasks",
+      "title": "Confluence v1 - Get long-running tasks",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get long-running tasks.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_look_and_feel_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_look_and_feel_settings",
+      "title": "Confluence v1 - Get look and feel settings",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get look and feel settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_macro_body_by_macro_id.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_macro_body_by_macro_id",
+      "title": "Confluence v1 - Get macro body by macro ID",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get macro body by macro ID.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_macro_body_by_macro_id_and_convert_representat.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_macro_body_by_macro_id_and_convert_representat",
+      "title": "Confluence v1 - Get macro body by macro ID and convert representation Asynchronously",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get macro body by macro ID and convert representation Asynchronously.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_macro_body_by_macro_id_and_convert_the_represe.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_macro_body_by_macro_id_and_convert_the_represe",
+      "title": "Confluence v1 - Get macro body by macro ID and convert the representation synchronously",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get macro body by macro ID and convert the representation synchronously.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_multiple_users_using_ids.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_multiple_users_using_ids",
+      "title": "Confluence v1 - Get multiple users using ids",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get multiple users using ids.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_restrictions.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_restrictions",
+      "title": "Confluence v1 - Get restrictions",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get restrictions.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_restrictions_by_operation.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_restrictions_by_operation",
+      "title": "Confluence v1 - Get restrictions by operation",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get restrictions by operation.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_restrictions_for_operation.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_restrictions_for_operation",
+      "title": "Confluence v1 - Get restrictions for operation",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get restrictions for operation.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_retention_period.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_retention_period",
+      "title": "Confluence v1 - Get retention period",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get retention period.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_labels.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_labels",
+      "title": "Confluence v1 - Get Space Labels",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get Space Labels.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_settings",
+      "title": "Confluence v1 - Get space settings",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get space settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_suggested_content_states.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_suggested_content_states",
+      "title": "Confluence v1 - Get space suggested content states",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get space suggested content states.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_theme.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_theme",
+      "title": "Confluence v1 - Get space theme",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get space theme.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_watch_status.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_watch_status",
+      "title": "Confluence v1 - Get space watch status",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get space watch status.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_space_watchers.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_space_watchers",
+      "title": "Confluence v1 - Get space watchers",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get space watchers.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_system_info.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_system_info",
+      "title": "Confluence v1 - Get system info",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get system info.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_theme.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_theme",
+      "title": "Confluence v1 - Get theme",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get theme.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_themes.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_themes",
+      "title": "Confluence v1 - Get themes",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get themes.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_uri_to_download_attachment.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_uri_to_download_attachment",
+      "title": "Confluence v1 - Get URI to download attachment",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get URI to download attachment.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_user.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_user",
+      "title": "Confluence v1 - Get user",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get user.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_user_properties.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_user_properties",
+      "title": "Confluence v1 - Get user properties",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get user properties.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_user_property.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_user_property",
+      "title": "Confluence v1 - Get user property",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get user property.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_viewers.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_viewers",
+      "title": "Confluence v1 - Get viewers",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get viewers.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_views.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_views",
+      "title": "Confluence v1 - Get views",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get views.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_watches_for_page.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_watches_for_page",
+      "title": "Confluence v1 - Get watches for page",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get watches for page.md"
+    },
+    {
+      "path": "Tools/confluence_v1_get_watches_for_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_get_watches_for_space",
+      "title": "Confluence v1 - Get watches for space",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Get watches for space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_gets_available_content_states_for_content.md",
+      "kind": "tool",
+      "name": "confluence_v1_gets_available_content_states_for_content",
+      "title": "Confluence v1 - Gets available content states for content",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Gets available content states for content.md"
+    },
+    {
+      "path": "Tools/confluence_v1_move_a_page_to_a_new_location_relative_to_a_target.md",
+      "kind": "tool",
+      "name": "confluence_v1_move_a_page_to_a_new_location_relative_to_a_target",
+      "title": "Confluence v1 - Move a page to a new location relative to a target page",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Move a page to a new location relative to a target page.md"
+    },
+    {
+      "path": "Tools/confluence_v1_publish_legacy_draft.md",
+      "kind": "tool",
+      "name": "confluence_v1_publish_legacy_draft",
+      "title": "Confluence v1 - Publish legacy draft",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Publish legacy draft.md"
+    },
+    {
+      "path": "Tools/confluence_v1_publish_shared_draft.md",
+      "kind": "tool",
+      "name": "confluence_v1_publish_shared_draft",
+      "title": "Confluence v1 - Publish shared draft",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Publish shared draft.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_a_space_permission.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_a_space_permission",
+      "title": "Confluence v1 - Remove a space permission",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove a space permission.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_content_watcher.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_content_watcher",
+      "title": "Confluence v1 - Remove content watcher",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove content watcher.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_group_from_content_restriction.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_group_from_content_restriction",
+      "title": "Confluence v1 - Remove group from content restriction",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove group from content restriction.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_label_from_a_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_label_from_a_space",
+      "title": "Confluence v1 - Remove label from a space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove label from a space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_label_from_content.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_label_from_content",
+      "title": "Confluence v1 - Remove label from content",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove label from content.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_label_from_content_using_query_parameter.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_label_from_content_using_query_parameter",
+      "title": "Confluence v1 - Remove label from content using query parameter",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove label from content using query parameter.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_label_watcher.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_label_watcher",
+      "title": "Confluence v1 - Remove label watcher",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove label watcher.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_member_from_group_using_group_id.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_member_from_group_using_group_id",
+      "title": "Confluence v1 - Remove member from group using group id",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove member from group using group id.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_space_watch.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_space_watch",
+      "title": "Confluence v1 - Remove space watch",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove space watch.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_template.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_template",
+      "title": "Confluence v1 - Remove template",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove template.md"
+    },
+    {
+      "path": "Tools/confluence_v1_remove_user_from_content_restriction.md",
+      "kind": "tool",
+      "name": "confluence_v1_remove_user_from_content_restriction",
+      "title": "Confluence v1 - Remove user from content restriction",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Remove user from content restriction.md"
+    },
+    {
+      "path": "Tools/confluence_v1_removes_the_content_state_of_a_content_and_publish.md",
+      "kind": "tool",
+      "name": "confluence_v1_removes_the_content_state_of_a_content_and_publish",
+      "title": "Confluence v1 - Removes the content state of a content and publishes a new version",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Removes the content state of a content and publishes a new version.md"
+    },
+    {
+      "path": "Tools/confluence_v1_reset_look_and_feel_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_reset_look_and_feel_settings",
+      "title": "Confluence v1 - Reset look and feel settings",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Reset look and feel settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_reset_space_theme.md",
+      "kind": "tool",
+      "name": "confluence_v1_reset_space_theme",
+      "title": "Confluence v1 - Reset space theme",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Reset space theme.md"
+    },
+    {
+      "path": "Tools/confluence_v1_restore_content_version.md",
+      "kind": "tool",
+      "name": "confluence_v1_restore_content_version",
+      "title": "Confluence v1 - Restore content version",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Restore content version.md"
+    },
+    {
+      "path": "Tools/confluence_v1_search_content.md",
+      "kind": "tool",
+      "name": "confluence_v1_search_content",
+      "title": "Confluence v1 - Search content",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Search content.md"
+    },
+    {
+      "path": "Tools/confluence_v1_search_content_by_cql.md",
+      "kind": "tool",
+      "name": "confluence_v1_search_content_by_cql",
+      "title": "Confluence v1 - Search content by CQL",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Search content by CQL.md"
+    },
+    {
+      "path": "Tools/confluence_v1_search_groups_by_partial_query.md",
+      "kind": "tool",
+      "name": "confluence_v1_search_groups_by_partial_query",
+      "title": "Confluence v1 - Search groups by partial query",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Search groups by partial query.md"
+    },
+    {
+      "path": "Tools/confluence_v1_search_users.md",
+      "kind": "tool",
+      "name": "confluence_v1_search_users",
+      "title": "Confluence v1 - Search users",
+      "writes": false,
+      "pair": "Requests/Confluence v1 - Search users.md"
+    },
+    {
+      "path": "Tools/confluence_v1_select_look_and_feel_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_select_look_and_feel_settings",
+      "title": "Confluence v1 - Select look and feel settings",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Select look and feel settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_set_retention_period.md",
+      "kind": "tool",
+      "name": "confluence_v1_set_retention_period",
+      "title": "Confluence v1 - Set retention period",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Set retention period.md"
+    },
+    {
+      "path": "Tools/confluence_v1_set_space_theme.md",
+      "kind": "tool",
+      "name": "confluence_v1_set_space_theme",
+      "title": "Confluence v1 - Set space theme",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Set space theme.md"
+    },
+    {
+      "path": "Tools/confluence_v1_set_the_content_state_of_a_content_and_publishes_a.md",
+      "kind": "tool",
+      "name": "confluence_v1_set_the_content_state_of_a_content_and_publishes_a",
+      "title": "Confluence v1 - Set the content state of a content and publishes a new version of the content",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Set the content state of a content and publishes a new version of the content.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_attachment_properties.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_attachment_properties",
+      "title": "Confluence v1 - Update attachment properties",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update attachment properties.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_content_template.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_content_template",
+      "title": "Confluence v1 - Update content template",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update content template.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_look_and_feel_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_look_and_feel_settings",
+      "title": "Confluence v1 - Update look and feel settings",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update look and feel settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_restrictions.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_restrictions",
+      "title": "Confluence v1 - Update restrictions",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update restrictions.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_space.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_space",
+      "title": "Confluence v1 - Update space",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update space.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_space_settings.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_space_settings",
+      "title": "Confluence v1 - Update space settings",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update space settings.md"
+    },
+    {
+      "path": "Tools/confluence_v1_update_user_property.md",
+      "kind": "tool",
+      "name": "confluence_v1_update_user_property",
+      "title": "Confluence v1 - Update user property",
+      "writes": true,
+      "pair": "Requests/Confluence v1 - Update user property.md"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add content watcher.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add group to content restriction.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add label watcher.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add labels to a space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add labels to content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add member to group by groupId.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add new custom content permission to space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add new permission to space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add restrictions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add space watcher.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Add user to content restriction.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Archive pages.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Asynchronously convert content body.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Check content permissions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Copy page hierarchy.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Copy single page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create asynchronous content body conversion tasks in bulk.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create attachment.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create audit record.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create content template.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create new user group.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create or update attachment.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create private space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create relationship.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Create user property by key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete content version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete page tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete relationship.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete restrictions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete user group.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Delete user property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Export audit records.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Find relationship from source to target.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Find source entities related to a target entity.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Find target entities related to a source entity.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get Custom Content States.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get Space Labels.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get URI to download attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get anonymous user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get asynchronous content body conversion task result in bulk.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get asynchronously converted content body from the id or the current status of the task.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get audit records for time period.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get audit records.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get blueprint templates.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content descendants by type.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content descendants.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content in space with given content state.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content restriction status for group.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content restriction status for user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content state settings for space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content state.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content template.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content templates.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get content watch status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get current user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get global theme.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get group members.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get group memberships for user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get group.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get groups.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get label information.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get label watch status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get long-running task.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get long-running tasks.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get look and feel settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get macro body by macro ID and convert representation Asynchronously.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get macro body by macro ID and convert the representation synchronously.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get macro body by macro ID.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get modules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get multiple users using ids.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get restrictions by operation.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get restrictions for operation.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get restrictions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get retention period.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get space settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get space suggested content states.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get space theme.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get space watch status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get space watchers.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get system info.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get theme.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get themes.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get user email address.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get user email addresses in batch.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get user properties.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get user property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get viewers.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get views.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get watches for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Get watches for space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Gets available content states for content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Move a page to a new location relative to a target page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Publish legacy draft.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Publish shared draft.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Register modules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove a space permission.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove content watcher.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove group from content restriction.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove label from a space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove label from content using query parameter.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove label from content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove label watcher.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove member from group using group id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove modules.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove space watch.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove template.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Remove user from content restriction.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Removes the content state of a content and publishes a new version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Reset look and feel settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Reset space theme.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Restore content version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Search content by CQL.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Search content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Search groups by partial query.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Search users.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Select look and feel settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Set retention period.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Set space theme.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Set the content state of a content and publishes a new version of the content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update attachment data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update attachment properties.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update content template.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update look and feel settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update restrictions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update space settings.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v1 - Update user property.md",
+      "kind": "request"
+    }
+  ]
+}

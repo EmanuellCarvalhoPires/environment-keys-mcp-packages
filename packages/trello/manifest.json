@@ -1,0 +1,1057 @@
+{
+  "id": "trello",
+  "name": "Trello MCP",
+  "tag": "api/app/trello",
+  "logo": "trello",
+  "index": "MCP - Trello.md",
+  "files": [
+    {
+      "path": "MCP - Trello.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Trello - Add Member vote to Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add Option to Custom Field dropdown.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add a Label to a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add a Member to a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add a Member to a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add a Sticker to a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Add a new comment to a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Archive all Cards in List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Archive or unarchive a list.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Batch Requests.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Bulk accept a set of organizations to an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Attachment On Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Avatar for Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Checkitem on Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Checklist on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Export for Organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Reaction for Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Star for Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create Webhooks for Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Label on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Label.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a List on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Listing for Plugin.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Tag for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Tag in Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a Webhook.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a calendarKey for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a emailKey for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new Custom Field on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new Label on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create a new custom Board Background.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create an Export for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create an auth Token for an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create custom Emoji for Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create custom Sticker for Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Create saved Search for Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Deactivate a Member of an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Deactivate or reactivate a member of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Decline enterpriseJoinRequests from one organization or a bulk list of organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete Action's Reaction.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete Checkitem from Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete Logo for Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete Option of Custom Field dropdown.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete Star for Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Checklist on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Custom Field definition.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Label.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Member's custom Board background.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Member's custom Sticker.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Sticker on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Webhook created by Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a Webhook.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a comment on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete a saved search.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Attachment on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Export for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Organization from an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Organization's Tag.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete checkItem on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete custom Board Background of Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Delete the email domain restriction on who can be invited to the Workspace.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Disable a Power-Up on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Dismiss a message for Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Download an Export for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Enable a Power-Up on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Action's Reaction.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Action's Reactions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Actions for Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Actions for a List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Actions of a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Actions on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Application's compliance data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Attachments on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Boards in an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Boards that Member belongs to.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Boards the Member has been invited to.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Cards in a List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Cards on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Cards the Member is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Checkitems on a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Checklists on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Checklists on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get ClaimableOrganizations of an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Custom Field Items for a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Custom Fields for Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Enabled Power-Ups on Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Enterprise admin Members.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Labels on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Lists on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's Notifications.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's Organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's Tokens.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's custom Board backgrounds.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's custom Stickers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Member's saved searched.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Members of Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Members who have voted on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Memberships of a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Memberships of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Option of Custom Field dropdown.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Options of Custom Field drop down.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Organizations a Member has been invited to.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Organizations new billable guests.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Organizations of an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get PendingOrganizations of an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Plugin's Member privacy compliance.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Power-Ups on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Stickers on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Tags of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Token's Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Users of an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get Webhooks for Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Board's Most Recent Export.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Checkitem on a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Custom Field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Label.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member of Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's Actions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's boardStars.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's custom Board Backgrounds.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's custom Emoji.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's custom Sticker.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's customEmojis.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member's notification channel settings.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Membership of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Notification's associated Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Notification.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Plugin.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Sticker on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Webhook belonging to a Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a Webhook.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a boardBackground of a Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a boardStar of Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a bulk list of organizations that can be transferred to an enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a field of a Notification.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a field on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a field on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a field on a Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a field on a Webhook.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a saved search.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get a specific field on an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get an Attachment on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get an Export for a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get auditlog data for an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get blocked notification keys of Member on this channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get boardStars on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get checkItem on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get checkItems on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get custom Board Background of Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get field on Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get field on a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get filtered Cards on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get filtered Lists on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get pluginData on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get signupUrl for Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Board a List is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Board a Notification is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Board for an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Board the Card is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Board the Checklist is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Card a Checklist is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Card a Notification is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Card for an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the List a Notification is on.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the List for an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the List of a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Member Creator of an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Member a Notification is about (not the creator).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Member of an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Member who created the Notification.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Members of a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Members of a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Members of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the Organization of an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get the pluginData Scoped to Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Get whether an organization can be transferred to an enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Invite Member to Board via email.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - List Action's summary of Reactions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - List available Emoji.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Mark Board as viewed.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Mark a Card's Notifications as read.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Mark all Notifications as read.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Move List to Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Move all Cards in List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove Member from Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Label from a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Member as admin from Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Member from a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Member from an Organization and all Organization Boards.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Member from an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove a Member's Vote on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Remove the associated Google Apps domain from a Workspace.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Retrieve Organization's Exports.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Search Trello.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Search for Members.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Transfer an Organization to an Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Checkitem on Checklist on Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Comment Action on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Custom Field item on Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Member to be admin of Enterprise.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Membership of Member on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Multiple Custom Field items on Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update Notification's read status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Comment Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Custom Field definition.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Label.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Member of an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Member's custom Board background.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Member's licensed status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Notification's read status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Plugin.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Sticker on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Webhook created by Token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a Webhook.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a checkItem on a Card.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a field on a List.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a field on a label.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update a saved search.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update an Action.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update an Organization's Members.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update blocked notification keys of Member on a channel (PUT 2).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update blocked notification keys of Member on a channel (PUT).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update blocked notification keys of Member on a channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update custom Board Background of Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update emailPosition Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update field on a Checklist.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update idEmailList Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update logo for an Organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update showSidebar Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update showSidebarActivity Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update showSidebarBoardActions Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update showSidebarMembers Pref on a Board.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Update the position of a boardStar of Member.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Updating Plugin's Listing.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Trello - Upload new boardBackground for Member.md",
+      "kind": "request-only"
+    }
+  ]
+}

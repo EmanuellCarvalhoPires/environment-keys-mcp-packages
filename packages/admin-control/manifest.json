@@ -1,0 +1,101 @@
+{
+  "id": "admin-control",
+  "name": "Admin Control MCP",
+  "tag": "api/app/admin",
+  "logo": "atlassian",
+  "index": "MCP - Admin Control.md",
+  "files": [
+    {
+      "path": "MCP - Admin Control.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Admin Control - Add or remove policy resources V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Add users to a policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Create a new policy V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Create a new policy resource.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Create a new policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Delete all policy resources V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Delete all policy resources.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Delete single policy resource.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Delete single policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get list of policies V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get list of policies.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get list of resources associated with a policy V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get list of resources associated with a policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get policy information for managed users.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get single policy V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get single policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Get the status of a task.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Publish data security policies.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Update single policy V2.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Update single policy resource.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Update single policy.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Control - Validate a policy.md",
+      "kind": "request-only"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "scim",
+  "name": "SCIM MCP",
+  "tag": "api/app/scim",
+  "logo": "atlassian",
+  "index": "MCP - SCIM.md",
+  "files": [
+    {
+      "path": "MCP - SCIM.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/SCIM - Create a group.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Create a user.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Delete a group by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Delete a user.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Delete user in SCIM DB.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get SCIM Links for an email.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get SCIM links for an account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get a group by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get a user by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get all schemas.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get feature metadata.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get group resource types.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get group schemas.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get groups.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get resource types.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get user enterprise extension schemas.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get user resource types.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get user schemas.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Get users.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Unlink a SCIM user from their Atlassian account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Update a group by ID (PATCH).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Update a group by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Update user by ID (PATCH).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/SCIM - Update user via user attributes.md",
+      "kind": "request-only"
+    }
+  ]
+}

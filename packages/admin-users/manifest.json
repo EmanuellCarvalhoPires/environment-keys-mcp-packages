@@ -1,0 +1,53 @@
+{
+  "id": "admin-users",
+  "name": "Admin Users MCP",
+  "tag": "api/app/admin",
+  "logo": "atlassian",
+  "index": "MCP - Admin Users.md",
+  "files": [
+    {
+      "path": "MCP - Admin Users.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Admin Users - Activate a user.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Cancel delete account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Deactivate a user.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Delete API token.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Delete account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Get API tokens.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Get profile.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Get user management permissions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Set email.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Admin Users - Update profile.md",
+      "kind": "request-only"
+    }
+  ]
+}

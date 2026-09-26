@@ -1,0 +1,149 @@
+{
+  "id": "forms",
+  "name": "Forms MCP",
+  "tag": "api/app/forms",
+  "logo": "atlassian",
+  "index": "MCP - Forms.md",
+  "files": [
+    {
+      "path": "MCP - Forms.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/Forms - Add form.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Change visibility to external.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Change visibility to internal.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Copy forms.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Create form template.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Delete form template.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Delete form.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Download export result.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get export status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get external form data (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get external form data on a request type.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get external form data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form PDF (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form PDF.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form XLSX (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form XLSX.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form attachments metadata (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form attachments metadata.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form index (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form index.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form on a request type.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form simplified answers (GET).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form simplified answers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form template.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get form.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Get project form index.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Reopen form.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Save form answers (PUT).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Save form answers.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Save form template.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Start export.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Submit form (PUT).md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Forms - Submit form.md",
+      "kind": "request-only"
+    }
+  ]
+}

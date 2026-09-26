@@ -1,0 +1,893 @@
+{
+  "id": "jsm",
+  "name": "JSM MCP",
+  "tag": "api/app/jsm",
+  "logo": "atlassian",
+  "index": "MCP - JSM.md",
+  "files": [
+    {
+      "path": "MCP - JSM.md",
+      "kind": "index"
+    },
+    {
+      "path": "Tools/jsm_add_customers.md",
+      "kind": "tool",
+      "name": "jsm_add_customers",
+      "title": "JSM - Add customers",
+      "writes": true,
+      "pair": "Requests/JSM - Add customers.md"
+    },
+    {
+      "path": "Tools/jsm_add_customers_post.md",
+      "kind": "tool",
+      "name": "jsm_add_customers_post",
+      "title": "JSM - Add customers (POST)",
+      "writes": true,
+      "pair": "Requests/JSM - Add customers (POST).md"
+    },
+    {
+      "path": "Tools/jsm_add_organization.md",
+      "kind": "tool",
+      "name": "jsm_add_organization",
+      "title": "JSM - Add organization",
+      "writes": true,
+      "pair": "Requests/JSM - Add organization.md"
+    },
+    {
+      "path": "Tools/jsm_add_request_participants.md",
+      "kind": "tool",
+      "name": "jsm_add_request_participants",
+      "title": "JSM - Add request participants",
+      "writes": true,
+      "pair": "Requests/JSM - Add request participants.md"
+    },
+    {
+      "path": "Tools/jsm_add_users_to_organization.md",
+      "kind": "tool",
+      "name": "jsm_add_users_to_organization",
+      "title": "JSM - Add users to organization",
+      "writes": true,
+      "pair": "Requests/JSM - Add users to organization.md"
+    },
+    {
+      "path": "Tools/jsm_answer_approval.md",
+      "kind": "tool",
+      "name": "jsm_answer_approval",
+      "title": "JSM - Answer approval",
+      "writes": true,
+      "pair": "Requests/JSM - Answer approval.md"
+    },
+    {
+      "path": "Tools/jsm_check_request_type_permissions.md",
+      "kind": "tool",
+      "name": "jsm_check_request_type_permissions",
+      "title": "JSM - Check request type permissions",
+      "writes": false,
+      "pair": "Requests/JSM - Check request type permissions.md"
+    },
+    {
+      "path": "Tools/jsm_create_comment_with_attachment.md",
+      "kind": "tool",
+      "name": "jsm_create_comment_with_attachment",
+      "title": "JSM - Create comment with attachment",
+      "writes": true,
+      "pair": "Requests/JSM - Create comment with attachment.md"
+    },
+    {
+      "path": "Tools/jsm_create_customer.md",
+      "kind": "tool",
+      "name": "jsm_create_customer",
+      "title": "JSM - Create customer",
+      "writes": true,
+      "pair": "Requests/JSM - Create customer.md"
+    },
+    {
+      "path": "Tools/jsm_create_customer_post.md",
+      "kind": "tool",
+      "name": "jsm_create_customer_post",
+      "title": "JSM - Create customer (POST)",
+      "writes": true,
+      "pair": "Requests/JSM - Create customer (POST).md"
+    },
+    {
+      "path": "Tools/jsm_create_customer_request.md",
+      "kind": "tool",
+      "name": "jsm_create_customer_request",
+      "title": "JSM - Create customer request",
+      "writes": true,
+      "pair": "Requests/JSM - Create customer request.md"
+    },
+    {
+      "path": "Tools/jsm_create_organization.md",
+      "kind": "tool",
+      "name": "jsm_create_organization",
+      "title": "JSM - Create organization",
+      "writes": true,
+      "pair": "Requests/JSM - Create organization.md"
+    },
+    {
+      "path": "Tools/jsm_create_request_comment.md",
+      "kind": "tool",
+      "name": "jsm_create_request_comment",
+      "title": "JSM - Create request comment",
+      "writes": true,
+      "pair": "Requests/JSM - Create request comment.md"
+    },
+    {
+      "path": "Tools/jsm_create_request_type.md",
+      "kind": "tool",
+      "name": "jsm_create_request_type",
+      "title": "JSM - Create request type",
+      "writes": true,
+      "pair": "Requests/JSM - Create request type.md"
+    },
+    {
+      "path": "Tools/jsm_delete_feedback.md",
+      "kind": "tool",
+      "name": "jsm_delete_feedback",
+      "title": "JSM - Delete feedback",
+      "writes": true,
+      "pair": "Requests/JSM - Delete feedback.md"
+    },
+    {
+      "path": "Tools/jsm_delete_organization.md",
+      "kind": "tool",
+      "name": "jsm_delete_organization",
+      "title": "JSM - Delete organization",
+      "writes": true,
+      "pair": "Requests/JSM - Delete organization.md"
+    },
+    {
+      "path": "Tools/jsm_delete_property.md",
+      "kind": "tool",
+      "name": "jsm_delete_property",
+      "title": "JSM - Delete property",
+      "writes": true,
+      "pair": "Requests/JSM - Delete property.md"
+    },
+    {
+      "path": "Tools/jsm_delete_property_delete.md",
+      "kind": "tool",
+      "name": "jsm_delete_property_delete",
+      "title": "JSM - Delete property (DELETE)",
+      "writes": true,
+      "pair": "Requests/JSM - Delete property (DELETE).md"
+    },
+    {
+      "path": "Tools/jsm_delete_request_type.md",
+      "kind": "tool",
+      "name": "jsm_delete_request_type",
+      "title": "JSM - Delete request type",
+      "writes": true,
+      "pair": "Requests/JSM - Delete request type.md"
+    },
+    {
+      "path": "Tools/jsm_get_all_request_types.md",
+      "kind": "tool",
+      "name": "jsm_get_all_request_types",
+      "title": "JSM - Get all request types",
+      "writes": false,
+      "pair": "Requests/JSM - Get all request types.md"
+    },
+    {
+      "path": "Tools/jsm_get_approval_by_id.md",
+      "kind": "tool",
+      "name": "jsm_get_approval_by_id",
+      "title": "JSM - Get approval by id",
+      "writes": false,
+      "pair": "Requests/JSM - Get approval by id.md"
+    },
+    {
+      "path": "Tools/jsm_get_approvals.md",
+      "kind": "tool",
+      "name": "jsm_get_approvals",
+      "title": "JSM - Get approvals",
+      "writes": false,
+      "pair": "Requests/JSM - Get approvals.md"
+    },
+    {
+      "path": "Tools/jsm_get_articles.md",
+      "kind": "tool",
+      "name": "jsm_get_articles",
+      "title": "JSM - Get articles",
+      "writes": false,
+      "pair": "Requests/JSM - Get articles.md"
+    },
+    {
+      "path": "Tools/jsm_get_articles_get.md",
+      "kind": "tool",
+      "name": "jsm_get_articles_get",
+      "title": "JSM - Get articles (GET)",
+      "writes": false,
+      "pair": "Requests/JSM - Get articles (GET).md"
+    },
+    {
+      "path": "Tools/jsm_get_assets_workspaces.md",
+      "kind": "tool",
+      "name": "jsm_get_assets_workspaces",
+      "title": "JSM - Get assets workspaces",
+      "writes": false,
+      "pair": "Requests/JSM - Get assets workspaces.md"
+    },
+    {
+      "path": "Tools/jsm_get_attachment_content.md",
+      "kind": "tool",
+      "name": "jsm_get_attachment_content",
+      "title": "JSM - Get attachment content",
+      "writes": false,
+      "pair": "Requests/JSM - Get attachment content.md"
+    },
+    {
+      "path": "Tools/jsm_get_attachment_thumbnail.md",
+      "kind": "tool",
+      "name": "jsm_get_attachment_thumbnail",
+      "title": "JSM - Get attachment thumbnail",
+      "writes": false,
+      "pair": "Requests/JSM - Get attachment thumbnail.md"
+    },
+    {
+      "path": "Tools/jsm_get_attachments_for_request.md",
+      "kind": "tool",
+      "name": "jsm_get_attachments_for_request",
+      "title": "JSM - Get attachments for request",
+      "writes": false,
+      "pair": "Requests/JSM - Get attachments for request.md"
+    },
+    {
+      "path": "Tools/jsm_get_comment_attachments.md",
+      "kind": "tool",
+      "name": "jsm_get_comment_attachments",
+      "title": "JSM - Get comment attachments",
+      "writes": false,
+      "pair": "Requests/JSM - Get comment attachments.md"
+    },
+    {
+      "path": "Tools/jsm_get_customer_request_by_id_or_key.md",
+      "kind": "tool",
+      "name": "jsm_get_customer_request_by_id_or_key",
+      "title": "JSM - Get customer request by id or key",
+      "writes": false,
+      "pair": "Requests/JSM - Get customer request by id or key.md"
+    },
+    {
+      "path": "Tools/jsm_get_customer_request_status.md",
+      "kind": "tool",
+      "name": "jsm_get_customer_request_status",
+      "title": "JSM - Get customer request status",
+      "writes": false,
+      "pair": "Requests/JSM - Get customer request status.md"
+    },
+    {
+      "path": "Tools/jsm_get_customer_requests.md",
+      "kind": "tool",
+      "name": "jsm_get_customer_requests",
+      "title": "JSM - Get customer requests",
+      "writes": false,
+      "pair": "Requests/JSM - Get customer requests.md"
+    },
+    {
+      "path": "Tools/jsm_get_customer_transitions.md",
+      "kind": "tool",
+      "name": "jsm_get_customer_transitions",
+      "title": "JSM - Get customer transitions",
+      "writes": false,
+      "pair": "Requests/JSM - Get customer transitions.md"
+    },
+    {
+      "path": "Tools/jsm_get_customers.md",
+      "kind": "tool",
+      "name": "jsm_get_customers",
+      "title": "JSM - Get customers",
+      "writes": false,
+      "pair": "Requests/JSM - Get customers.md"
+    },
+    {
+      "path": "Tools/jsm_get_feedback.md",
+      "kind": "tool",
+      "name": "jsm_get_feedback",
+      "title": "JSM - Get feedback",
+      "writes": false,
+      "pair": "Requests/JSM - Get feedback.md"
+    },
+    {
+      "path": "Tools/jsm_get_info.md",
+      "kind": "tool",
+      "name": "jsm_get_info",
+      "title": "JSM - Get info",
+      "writes": false,
+      "pair": "Requests/JSM - Get info.md"
+    },
+    {
+      "path": "Tools/jsm_get_issues_in_queue.md",
+      "kind": "tool",
+      "name": "jsm_get_issues_in_queue",
+      "title": "JSM - Get issues in queue",
+      "writes": false,
+      "pair": "Requests/JSM - Get issues in queue.md"
+    },
+    {
+      "path": "Tools/jsm_get_organization.md",
+      "kind": "tool",
+      "name": "jsm_get_organization",
+      "title": "JSM - Get organization",
+      "writes": false,
+      "pair": "Requests/JSM - Get organization.md"
+    },
+    {
+      "path": "Tools/jsm_get_organizations.md",
+      "kind": "tool",
+      "name": "jsm_get_organizations",
+      "title": "JSM - Get organizations",
+      "writes": false,
+      "pair": "Requests/JSM - Get organizations.md"
+    },
+    {
+      "path": "Tools/jsm_get_organizations_get.md",
+      "kind": "tool",
+      "name": "jsm_get_organizations_get",
+      "title": "JSM - Get organizations (GET)",
+      "writes": false,
+      "pair": "Requests/JSM - Get organizations (GET).md"
+    },
+    {
+      "path": "Tools/jsm_get_properties_keys.md",
+      "kind": "tool",
+      "name": "jsm_get_properties_keys",
+      "title": "JSM - Get properties keys",
+      "writes": false,
+      "pair": "Requests/JSM - Get properties keys.md"
+    },
+    {
+      "path": "Tools/jsm_get_properties_keys_get.md",
+      "kind": "tool",
+      "name": "jsm_get_properties_keys_get",
+      "title": "JSM - Get properties keys (GET)",
+      "writes": false,
+      "pair": "Requests/JSM - Get properties keys (GET).md"
+    },
+    {
+      "path": "Tools/jsm_get_property.md",
+      "kind": "tool",
+      "name": "jsm_get_property",
+      "title": "JSM - Get property",
+      "writes": false,
+      "pair": "Requests/JSM - Get property.md"
+    },
+    {
+      "path": "Tools/jsm_get_property_get.md",
+      "kind": "tool",
+      "name": "jsm_get_property_get",
+      "title": "JSM - Get property (GET)",
+      "writes": false,
+      "pair": "Requests/JSM - Get property (GET).md"
+    },
+    {
+      "path": "Tools/jsm_get_queue.md",
+      "kind": "tool",
+      "name": "jsm_get_queue",
+      "title": "JSM - Get queue",
+      "writes": false,
+      "pair": "Requests/JSM - Get queue.md"
+    },
+    {
+      "path": "Tools/jsm_get_queues.md",
+      "kind": "tool",
+      "name": "jsm_get_queues",
+      "title": "JSM - Get queues",
+      "writes": false,
+      "pair": "Requests/JSM - Get queues.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_comment_by_id.md",
+      "kind": "tool",
+      "name": "jsm_get_request_comment_by_id",
+      "title": "JSM - Get request comment by id",
+      "writes": false,
+      "pair": "Requests/JSM - Get request comment by id.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_comments.md",
+      "kind": "tool",
+      "name": "jsm_get_request_comments",
+      "title": "JSM - Get request comments",
+      "writes": false,
+      "pair": "Requests/JSM - Get request comments.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_participants.md",
+      "kind": "tool",
+      "name": "jsm_get_request_participants",
+      "title": "JSM - Get request participants",
+      "writes": false,
+      "pair": "Requests/JSM - Get request participants.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_type_by_id.md",
+      "kind": "tool",
+      "name": "jsm_get_request_type_by_id",
+      "title": "JSM - Get request type by id",
+      "writes": false,
+      "pair": "Requests/JSM - Get request type by id.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_type_fields.md",
+      "kind": "tool",
+      "name": "jsm_get_request_type_fields",
+      "title": "JSM - Get request type fields",
+      "writes": false,
+      "pair": "Requests/JSM - Get request type fields.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_type_groups.md",
+      "kind": "tool",
+      "name": "jsm_get_request_type_groups",
+      "title": "JSM - Get request type groups",
+      "writes": false,
+      "pair": "Requests/JSM - Get request type groups.md"
+    },
+    {
+      "path": "Tools/jsm_get_request_types.md",
+      "kind": "tool",
+      "name": "jsm_get_request_types",
+      "title": "JSM - Get request types",
+      "writes": false,
+      "pair": "Requests/JSM - Get request types.md"
+    },
+    {
+      "path": "Tools/jsm_get_service_desk_by_id.md",
+      "kind": "tool",
+      "name": "jsm_get_service_desk_by_id",
+      "title": "JSM - Get service desk by id",
+      "writes": false,
+      "pair": "Requests/JSM - Get service desk by id.md"
+    },
+    {
+      "path": "Tools/jsm_get_service_desks.md",
+      "kind": "tool",
+      "name": "jsm_get_service_desks",
+      "title": "JSM - Get service desks",
+      "writes": false,
+      "pair": "Requests/JSM - Get service desks.md"
+    },
+    {
+      "path": "Tools/jsm_get_sla_information.md",
+      "kind": "tool",
+      "name": "jsm_get_sla_information",
+      "title": "JSM - Get sla information",
+      "writes": false,
+      "pair": "Requests/JSM - Get sla information.md"
+    },
+    {
+      "path": "Tools/jsm_get_sla_information_by_id.md",
+      "kind": "tool",
+      "name": "jsm_get_sla_information_by_id",
+      "title": "JSM - Get sla information by id",
+      "writes": false,
+      "pair": "Requests/JSM - Get sla information by id.md"
+    },
+    {
+      "path": "Tools/jsm_get_subscription_status.md",
+      "kind": "tool",
+      "name": "jsm_get_subscription_status",
+      "title": "JSM - Get subscription status",
+      "writes": false,
+      "pair": "Requests/JSM - Get subscription status.md"
+    },
+    {
+      "path": "Tools/jsm_get_users_in_organization.md",
+      "kind": "tool",
+      "name": "jsm_get_users_in_organization",
+      "title": "JSM - Get users in organization",
+      "writes": false,
+      "pair": "Requests/JSM - Get users in organization.md"
+    },
+    {
+      "path": "Tools/jsm_invite_customer.md",
+      "kind": "tool",
+      "name": "jsm_invite_customer",
+      "title": "JSM - Invite customer",
+      "writes": true,
+      "pair": "Requests/JSM - Invite customer.md"
+    },
+    {
+      "path": "Tools/jsm_perform_customer_transition.md",
+      "kind": "tool",
+      "name": "jsm_perform_customer_transition",
+      "title": "JSM - Perform customer transition",
+      "writes": true,
+      "pair": "Requests/JSM - Perform customer transition.md"
+    },
+    {
+      "path": "Tools/jsm_post_feedback.md",
+      "kind": "tool",
+      "name": "jsm_post_feedback",
+      "title": "JSM - Post feedback",
+      "writes": true,
+      "pair": "Requests/JSM - Post feedback.md"
+    },
+    {
+      "path": "Tools/jsm_remove_customers.md",
+      "kind": "tool",
+      "name": "jsm_remove_customers",
+      "title": "JSM - Remove customers",
+      "writes": true,
+      "pair": "Requests/JSM - Remove customers.md"
+    },
+    {
+      "path": "Tools/jsm_remove_organization.md",
+      "kind": "tool",
+      "name": "jsm_remove_organization",
+      "title": "JSM - Remove organization",
+      "writes": true,
+      "pair": "Requests/JSM - Remove organization.md"
+    },
+    {
+      "path": "Tools/jsm_remove_request_participants.md",
+      "kind": "tool",
+      "name": "jsm_remove_request_participants",
+      "title": "JSM - Remove request participants",
+      "writes": true,
+      "pair": "Requests/JSM - Remove request participants.md"
+    },
+    {
+      "path": "Tools/jsm_remove_users_from_organization.md",
+      "kind": "tool",
+      "name": "jsm_remove_users_from_organization",
+      "title": "JSM - Remove users from organization",
+      "writes": true,
+      "pair": "Requests/JSM - Remove users from organization.md"
+    },
+    {
+      "path": "Tools/jsm_revoke_portal_only_access_for_user.md",
+      "kind": "tool",
+      "name": "jsm_revoke_portal_only_access_for_user",
+      "title": "JSM - Revoke portal only access for user",
+      "writes": true,
+      "pair": "Requests/JSM - Revoke portal only access for user.md"
+    },
+    {
+      "path": "Tools/jsm_set_property.md",
+      "kind": "tool",
+      "name": "jsm_set_property",
+      "title": "JSM - Set property",
+      "writes": true,
+      "pair": "Requests/JSM - Set property.md"
+    },
+    {
+      "path": "Tools/jsm_set_property_put.md",
+      "kind": "tool",
+      "name": "jsm_set_property_put",
+      "title": "JSM - Set property (PUT)",
+      "writes": true,
+      "pair": "Requests/JSM - Set property (PUT).md"
+    },
+    {
+      "path": "Tools/jsm_subscribe.md",
+      "kind": "tool",
+      "name": "jsm_subscribe",
+      "title": "JSM - Subscribe",
+      "writes": true,
+      "pair": "Requests/JSM - Subscribe.md"
+    },
+    {
+      "path": "Tools/jsm_unsubscribe.md",
+      "kind": "tool",
+      "name": "jsm_unsubscribe",
+      "title": "JSM - Unsubscribe",
+      "writes": true,
+      "pair": "Requests/JSM - Unsubscribe.md"
+    },
+    {
+      "path": "Tools/jsm_validate_customer_request.md",
+      "kind": "tool",
+      "name": "jsm_validate_customer_request",
+      "title": "JSM - Validate customer request",
+      "writes": false,
+      "pair": "Requests/JSM - Validate customer request.md"
+    },
+    {
+      "path": "Tools/jsm_view_knowledge_base_article.md",
+      "kind": "tool",
+      "name": "jsm_view_knowledge_base_article",
+      "title": "JSM - View knowledge base article",
+      "writes": false,
+      "pair": "Requests/JSM - View knowledge base article.md"
+    },
+    {
+      "path": "Requests/JSM - Add customers (POST).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Add customers.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Add organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Add request participants.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Add users to organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Answer approval.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Attach temporary file.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSM - Check request type permissions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create comment with attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create customer (POST).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create customer request.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create customer.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create request comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Create request type.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Delete feedback.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Delete organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Delete property (DELETE).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Delete property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Delete request type.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get all request types.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get approval by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get approvals.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get articles (GET).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get articles.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get assets workspaces.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get attachment content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get attachment thumbnail.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get attachments for request.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get comment attachments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get customer request by id or key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get customer request status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get customer requests.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get customer transitions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get customers.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get feedback.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get info.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get issues in queue.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get organizations (GET).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get organizations.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get properties keys (GET).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get properties keys.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get property (GET).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get queue.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get queues.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request participants.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request type by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request type fields.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request type groups.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get request types.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get service desk by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get service desks.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get sla information by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get sla information.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get subscription status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Get users in organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Invite customer.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Perform customer transition.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Post feedback.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Remove customers.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Remove organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Remove request participants.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Remove users from organization.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Revoke portal only access for user.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Set property (PUT).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Set property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Subscribe.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Unsubscribe.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - Validate customer request.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSM - View knowledge base article.md",
+      "kind": "request"
+    }
+  ]
+}

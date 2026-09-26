@@ -1,0 +1,2629 @@
+{
+  "id": "confluence-v2",
+  "name": "Confluence MCP (v2)",
+  "tag": "api/app/confluence",
+  "logo": "atlassian",
+  "index": "MCP - Confluence v2.md",
+  "files": [
+    {
+      "path": "MCP - Confluence v2.md",
+      "kind": "index"
+    },
+    {
+      "path": "Tools/confluence_bulk_assign_space_permission_roles.md",
+      "kind": "tool",
+      "name": "confluence_bulk_assign_space_permission_roles",
+      "title": "Confluence v2 - Bulk assign space permission roles",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Bulk assign space permission roles.md"
+    },
+    {
+      "path": "Tools/confluence_bulk_remove_space_permission_access.md",
+      "kind": "tool",
+      "name": "confluence_bulk_remove_space_permission_access",
+      "title": "Confluence v2 - Bulk remove space permission access",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Bulk remove space permission access.md"
+    },
+    {
+      "path": "Tools/confluence_check_site_access_for_a_list_of_emails.md",
+      "kind": "tool",
+      "name": "confluence_check_site_access_for_a_list_of_emails",
+      "title": "Confluence v2 - Check site access for a list of emails",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Check site access for a list of emails.md"
+    },
+    {
+      "path": "Tools/confluence_convert_content_ids_to_content_types.md",
+      "kind": "tool",
+      "name": "confluence_convert_content_ids_to_content_types",
+      "title": "Confluence v2 - Convert content ids to content types",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Convert content ids to content types.md"
+    },
+    {
+      "path": "Tools/confluence_create_a_space_role.md",
+      "kind": "tool",
+      "name": "confluence_create_a_space_role",
+      "title": "Confluence v2 - Create a space role",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create a space role.md"
+    },
+    {
+      "path": "Tools/confluence_create_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_create_blog_post",
+      "title": "Confluence v2 - Create blog post",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create blog post.md"
+    },
+    {
+      "path": "Tools/confluence_create_bulk_user_lookup_using_ids.md",
+      "kind": "tool",
+      "name": "confluence_create_bulk_user_lookup_using_ids",
+      "title": "Confluence v2 - Create bulk user lookup using ids",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create bulk user lookup using ids.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_attachment.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_attachment",
+      "title": "Confluence v2 - Create content property for attachment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for attachment.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_blog_post",
+      "title": "Confluence v2 - Create content property for blog post",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_comment.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_comment",
+      "title": "Confluence v2 - Create content property for comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for comment.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_custom_content",
+      "title": "Confluence v2 - Create content property for custom content",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for custom content.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_database.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_database",
+      "title": "Confluence v2 - Create content property for database",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for database.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_folder.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_folder",
+      "title": "Confluence v2 - Create content property for folder",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for folder.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_page.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_page",
+      "title": "Confluence v2 - Create content property for page",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for page.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_smart_link_in_the_content.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_smart_link_in_the_content",
+      "title": "Confluence v2 - Create content property for Smart Link in the content tree",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for Smart Link in the content tree.md"
+    },
+    {
+      "path": "Tools/confluence_create_content_property_for_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_create_content_property_for_whiteboard",
+      "title": "Confluence v2 - Create content property for whiteboard",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create content property for whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_create_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_create_custom_content",
+      "title": "Confluence v2 - Create custom content",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create custom content.md"
+    },
+    {
+      "path": "Tools/confluence_create_database.md",
+      "kind": "tool",
+      "name": "confluence_create_database",
+      "title": "Confluence v2 - Create database",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create database.md"
+    },
+    {
+      "path": "Tools/confluence_create_folder.md",
+      "kind": "tool",
+      "name": "confluence_create_folder",
+      "title": "Confluence v2 - Create folder",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create folder.md"
+    },
+    {
+      "path": "Tools/confluence_create_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_create_footer_comment",
+      "title": "Confluence v2 - Create footer comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_create_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_create_inline_comment",
+      "title": "Confluence v2 - Create inline comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_create_or_update_a_forge_app_property.md",
+      "kind": "tool",
+      "name": "confluence_create_or_update_a_forge_app_property",
+      "title": "Confluence v2 - Create or update a Forge app property",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create or update a Forge app property.md"
+    },
+    {
+      "path": "Tools/confluence_create_page.md",
+      "kind": "tool",
+      "name": "confluence_create_page",
+      "title": "Confluence v2 - Create page",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create page.md"
+    },
+    {
+      "path": "Tools/confluence_create_smart_link_in_the_content_tree.md",
+      "kind": "tool",
+      "name": "confluence_create_smart_link_in_the_content_tree",
+      "title": "Confluence v2 - Create Smart Link in the content tree",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create Smart Link in the content tree.md"
+    },
+    {
+      "path": "Tools/confluence_create_space.md",
+      "kind": "tool",
+      "name": "confluence_create_space",
+      "title": "Confluence v2 - Create space",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create space.md"
+    },
+    {
+      "path": "Tools/confluence_create_space_property_in_space.md",
+      "kind": "tool",
+      "name": "confluence_create_space_property_in_space",
+      "title": "Confluence v2 - Create space property in space",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create space property in space.md"
+    },
+    {
+      "path": "Tools/confluence_create_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_create_whiteboard",
+      "title": "Confluence v2 - Create whiteboard",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Create whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_delete_a_space_role.md",
+      "kind": "tool",
+      "name": "confluence_delete_a_space_role",
+      "title": "Confluence v2 - Delete a space role",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete a space role.md"
+    },
+    {
+      "path": "Tools/confluence_delete_attachment.md",
+      "kind": "tool",
+      "name": "confluence_delete_attachment",
+      "title": "Confluence v2 - Delete attachment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete attachment.md"
+    },
+    {
+      "path": "Tools/confluence_delete_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_delete_blog_post",
+      "title": "Confluence v2 - Delete blog post",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete blog post.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_attachment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_attachment_by_id",
+      "title": "Confluence v2 - Delete content property for attachment by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for attachment by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_blogpost_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_blogpost_by_id",
+      "title": "Confluence v2 - Delete content property for blogpost by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for blogpost by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_comment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_comment_by_id",
+      "title": "Confluence v2 - Delete content property for comment by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for comment by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_custom_content_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_custom_content_by_id",
+      "title": "Confluence v2 - Delete content property for custom content by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for custom content by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_database_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_database_by_id",
+      "title": "Confluence v2 - Delete content property for database by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for database by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_folder_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_folder_by_id",
+      "title": "Confluence v2 - Delete content property for folder by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for folder by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_page_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_page_by_id",
+      "title": "Confluence v2 - Delete content property for page by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for page by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_smart_link_in_the_content.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_smart_link_in_the_content",
+      "title": "Confluence v2 - Delete content property for Smart Link in the content tree by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for Smart Link in the content tree by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_content_property_for_whiteboard_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_content_property_for_whiteboard_by_id",
+      "title": "Confluence v2 - Delete content property for whiteboard by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete content property for whiteboard by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_delete_custom_content",
+      "title": "Confluence v2 - Delete custom content",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete custom content.md"
+    },
+    {
+      "path": "Tools/confluence_delete_database.md",
+      "kind": "tool",
+      "name": "confluence_delete_database",
+      "title": "Confluence v2 - Delete database",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete database.md"
+    },
+    {
+      "path": "Tools/confluence_delete_folder.md",
+      "kind": "tool",
+      "name": "confluence_delete_folder",
+      "title": "Confluence v2 - Delete folder",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete folder.md"
+    },
+    {
+      "path": "Tools/confluence_delete_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_delete_footer_comment",
+      "title": "Confluence v2 - Delete footer comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_delete_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_delete_inline_comment",
+      "title": "Confluence v2 - Delete inline comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_delete_page.md",
+      "kind": "tool",
+      "name": "confluence_delete_page",
+      "title": "Confluence v2 - Delete page",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete page.md"
+    },
+    {
+      "path": "Tools/confluence_delete_smart_link_in_the_content_tree.md",
+      "kind": "tool",
+      "name": "confluence_delete_smart_link_in_the_content_tree",
+      "title": "Confluence v2 - Delete Smart Link in the content tree",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete Smart Link in the content tree.md"
+    },
+    {
+      "path": "Tools/confluence_delete_space_default_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_delete_space_default_classification_level",
+      "title": "Confluence v2 - Delete space default classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete space default classification level.md"
+    },
+    {
+      "path": "Tools/confluence_delete_space_property_by_id.md",
+      "kind": "tool",
+      "name": "confluence_delete_space_property_by_id",
+      "title": "Confluence v2 - Delete space property by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete space property by id.md"
+    },
+    {
+      "path": "Tools/confluence_delete_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_delete_whiteboard",
+      "title": "Confluence v2 - Delete whiteboard",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Delete whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_deletes_a_forge_app_property.md",
+      "kind": "tool",
+      "name": "confluence_deletes_a_forge_app_property",
+      "title": "Confluence v2 - Deletes a Forge app property",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Deletes a Forge app property.md"
+    },
+    {
+      "path": "Tools/confluence_disable_admin_key.md",
+      "kind": "tool",
+      "name": "confluence_disable_admin_key",
+      "title": "Confluence v2 - Disable Admin Key",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Disable Admin Key.md"
+    },
+    {
+      "path": "Tools/confluence_download_attachment_thumbnail_by_id.md",
+      "kind": "tool",
+      "name": "confluence_download_attachment_thumbnail_by_id",
+      "title": "Confluence v2 - Download attachment thumbnail by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Download attachment thumbnail by id.md"
+    },
+    {
+      "path": "Tools/confluence_enable_admin_key.md",
+      "kind": "tool",
+      "name": "confluence_enable_admin_key",
+      "title": "Confluence v2 - Enable Admin Key",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Enable Admin Key.md"
+    },
+    {
+      "path": "Tools/confluence_generate_space_permission_combinations.md",
+      "kind": "tool",
+      "name": "confluence_generate_space_permission_combinations",
+      "title": "Confluence v2 - Generate space permission combinations",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Generate space permission combinations.md"
+    },
+    {
+      "path": "Tools/confluence_get_a_forge_app_property_by_key.md",
+      "kind": "tool",
+      "name": "confluence_get_a_forge_app_property_by_key",
+      "title": "Confluence v2 - Get a Forge app property by key",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get a Forge app property by key.md"
+    },
+    {
+      "path": "Tools/confluence_get_account_ids_of_likes_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_account_ids_of_likes_for_blog_post",
+      "title": "Confluence v2 - Get account IDs of likes for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get account IDs of likes for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_account_ids_of_likes_for_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_account_ids_of_likes_for_footer_comment",
+      "title": "Confluence v2 - Get account IDs of likes for footer comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get account IDs of likes for footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_account_ids_of_likes_for_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_account_ids_of_likes_for_inline_comment",
+      "title": "Confluence v2 - Get account IDs of likes for inline comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get account IDs of likes for inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_account_ids_of_likes_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_account_ids_of_likes_for_page",
+      "title": "Confluence v2 - Get account IDs of likes for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get account IDs of likes for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_admin_key.md",
+      "kind": "tool",
+      "name": "confluence_get_admin_key",
+      "title": "Confluence v2 - Get Admin Key",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get Admin Key.md"
+    },
+    {
+      "path": "Tools/confluence_get_all_ancestors_of_database.md",
+      "kind": "tool",
+      "name": "confluence_get_all_ancestors_of_database",
+      "title": "Confluence v2 - Get all ancestors of database",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get all ancestors of database.md"
+    },
+    {
+      "path": "Tools/confluence_get_all_ancestors_of_folder.md",
+      "kind": "tool",
+      "name": "confluence_get_all_ancestors_of_folder",
+      "title": "Confluence v2 - Get all ancestors of folder",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get all ancestors of folder.md"
+    },
+    {
+      "path": "Tools/confluence_get_all_ancestors_of_page.md",
+      "kind": "tool",
+      "name": "confluence_get_all_ancestors_of_page",
+      "title": "Confluence v2 - Get all ancestors of page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get all ancestors of page.md"
+    },
+    {
+      "path": "Tools/confluence_get_all_ancestors_of_smart_link_in_content_tree.md",
+      "kind": "tool",
+      "name": "confluence_get_all_ancestors_of_smart_link_in_content_tree",
+      "title": "Confluence v2 - Get all ancestors of Smart Link in content tree",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get all ancestors of Smart Link in content tree.md"
+    },
+    {
+      "path": "Tools/confluence_get_all_ancestors_of_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_get_all_ancestors_of_whiteboard",
+      "title": "Confluence v2 - Get all ancestors of whiteboard",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get all ancestors of whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_attachment_by_id",
+      "title": "Confluence v2 - Get attachment by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachment by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachment_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_attachment_comments",
+      "title": "Confluence v2 - Get attachment comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachment comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachment_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_attachment_versions",
+      "title": "Confluence v2 - Get attachment versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachment versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachments.md",
+      "kind": "tool",
+      "name": "confluence_get_attachments",
+      "title": "Confluence v2 - Get attachments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachments.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachments_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_attachments_for_blog_post",
+      "title": "Confluence v2 - Get attachments for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachments for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachments_for_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_get_attachments_for_custom_content",
+      "title": "Confluence v2 - Get attachments for custom content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachments for custom content.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachments_for_label.md",
+      "kind": "tool",
+      "name": "confluence_get_attachments_for_label",
+      "title": "Confluence v2 - Get attachments for label",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachments for label.md"
+    },
+    {
+      "path": "Tools/confluence_get_attachments_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_attachments_for_page",
+      "title": "Confluence v2 - Get attachments for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get attachments for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_available_space_permissions.md",
+      "kind": "tool",
+      "name": "confluence_get_available_space_permissions",
+      "title": "Confluence v2 - Get available space permissions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get available space permissions.md"
+    },
+    {
+      "path": "Tools/confluence_get_available_space_roles.md",
+      "kind": "tool",
+      "name": "confluence_get_available_space_roles",
+      "title": "Confluence v2 - Get available space roles",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get available space roles.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_post_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_post_by_id",
+      "title": "Confluence v2 - Get blog post by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog post by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_post_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_post_classification_level",
+      "title": "Confluence v2 - Get blog post classification level",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog post classification level.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_post_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_post_versions",
+      "title": "Confluence v2 - Get blog post versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog post versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_posts.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_posts",
+      "title": "Confluence v2 - Get blog posts",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog posts.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_posts_for_label.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_posts_for_label",
+      "title": "Confluence v2 - Get blog posts for label",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog posts for label.md"
+    },
+    {
+      "path": "Tools/confluence_get_blog_posts_in_space.md",
+      "kind": "tool",
+      "name": "confluence_get_blog_posts_in_space",
+      "title": "Confluence v2 - Get blog posts in space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get blog posts in space.md"
+    },
+    {
+      "path": "Tools/confluence_get_child_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_get_child_custom_content",
+      "title": "Confluence v2 - Get child custom content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get child custom content.md"
+    },
+    {
+      "path": "Tools/confluence_get_child_pages.md",
+      "kind": "tool",
+      "name": "confluence_get_child_pages",
+      "title": "Confluence v2 - Get child pages",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get child pages.md"
+    },
+    {
+      "path": "Tools/confluence_get_children_footer_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_children_footer_comments",
+      "title": "Confluence v2 - Get children footer comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get children footer comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_children_inline_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_children_inline_comments",
+      "title": "Confluence v2 - Get children inline comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get children inline comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_attachment.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_attachment",
+      "title": "Confluence v2 - Get content properties for attachment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for attachment.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_blog_post",
+      "title": "Confluence v2 - Get content properties for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_comment",
+      "title": "Confluence v2 - Get content properties for comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_custom_content",
+      "title": "Confluence v2 - Get content properties for custom content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for custom content.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_database.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_database",
+      "title": "Confluence v2 - Get content properties for database",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for database.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_folder.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_folder",
+      "title": "Confluence v2 - Get content properties for folder",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for folder.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_page",
+      "title": "Confluence v2 - Get content properties for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_smart_link_in_the_content.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_smart_link_in_the_content",
+      "title": "Confluence v2 - Get content properties for Smart Link in the content tree",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for Smart Link in the content tree.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_properties_for_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_get_content_properties_for_whiteboard",
+      "title": "Confluence v2 - Get content properties for whiteboard",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content properties for whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_attachment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_attachment_by_id",
+      "title": "Confluence v2 - Get content property for attachment by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for attachment by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_blog_post_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_blog_post_by_id",
+      "title": "Confluence v2 - Get content property for blog post by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for blog post by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_comment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_comment_by_id",
+      "title": "Confluence v2 - Get content property for comment by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for comment by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_custom_content_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_custom_content_by_id",
+      "title": "Confluence v2 - Get content property for custom content by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for custom content by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_database_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_database_by_id",
+      "title": "Confluence v2 - Get content property for database by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for database by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_folder_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_folder_by_id",
+      "title": "Confluence v2 - Get content property for folder by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for folder by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_page_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_page_by_id",
+      "title": "Confluence v2 - Get content property for page by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for page by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_smart_link_in_the_content_tr.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_smart_link_in_the_content_tr",
+      "title": "Confluence v2 - Get content property for Smart Link in the content tree by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for Smart Link in the content tree by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_content_property_for_whiteboard_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_content_property_for_whiteboard_by_id",
+      "title": "Confluence v2 - Get content property for whiteboard by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get content property for whiteboard by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_by_id",
+      "title": "Confluence v2 - Get custom content by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_by_type.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_by_type",
+      "title": "Confluence v2 - Get custom content by type",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content by type.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_by_type_in_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_by_type_in_blog_post",
+      "title": "Confluence v2 - Get custom content by type in blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content by type in blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_by_type_in_page.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_by_type_in_page",
+      "title": "Confluence v2 - Get custom content by type in page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content by type in page.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_by_type_in_space.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_by_type_in_space",
+      "title": "Confluence v2 - Get custom content by type in space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content by type in space.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_comments",
+      "title": "Confluence v2 - Get custom content comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_custom_content_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_custom_content_versions",
+      "title": "Confluence v2 - Get custom content versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get custom content versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_data_policy_metadata_for_the_workspace.md",
+      "kind": "tool",
+      "name": "confluence_get_data_policy_metadata_for_the_workspace",
+      "title": "Confluence v2 - Get data policy metadata for the workspace",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get data policy metadata for the workspace.md"
+    },
+    {
+      "path": "Tools/confluence_get_database_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_database_by_id",
+      "title": "Confluence v2 - Get database by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get database by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_database_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_get_database_classification_level",
+      "title": "Confluence v2 - Get database classification level",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get database classification level.md"
+    },
+    {
+      "path": "Tools/confluence_get_descendants_of_a_database.md",
+      "kind": "tool",
+      "name": "confluence_get_descendants_of_a_database",
+      "title": "Confluence v2 - Get descendants of a database",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get descendants of a database.md"
+    },
+    {
+      "path": "Tools/confluence_get_descendants_of_a_smart_link.md",
+      "kind": "tool",
+      "name": "confluence_get_descendants_of_a_smart_link",
+      "title": "Confluence v2 - Get descendants of a smart link",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get descendants of a smart link.md"
+    },
+    {
+      "path": "Tools/confluence_get_descendants_of_a_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_get_descendants_of_a_whiteboard",
+      "title": "Confluence v2 - Get descendants of a whiteboard",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get descendants of a whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_get_descendants_of_folder.md",
+      "kind": "tool",
+      "name": "confluence_get_descendants_of_folder",
+      "title": "Confluence v2 - Get descendants of folder",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get descendants of folder.md"
+    },
+    {
+      "path": "Tools/confluence_get_descendants_of_page.md",
+      "kind": "tool",
+      "name": "confluence_get_descendants_of_page",
+      "title": "Confluence v2 - Get descendants of page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get descendants of page.md"
+    },
+    {
+      "path": "Tools/confluence_get_direct_children_of_a_database.md",
+      "kind": "tool",
+      "name": "confluence_get_direct_children_of_a_database",
+      "title": "Confluence v2 - Get direct children of a database",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get direct children of a database.md"
+    },
+    {
+      "path": "Tools/confluence_get_direct_children_of_a_folder.md",
+      "kind": "tool",
+      "name": "confluence_get_direct_children_of_a_folder",
+      "title": "Confluence v2 - Get direct children of a folder",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get direct children of a folder.md"
+    },
+    {
+      "path": "Tools/confluence_get_direct_children_of_a_page.md",
+      "kind": "tool",
+      "name": "confluence_get_direct_children_of_a_page",
+      "title": "Confluence v2 - Get direct children of a page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get direct children of a page.md"
+    },
+    {
+      "path": "Tools/confluence_get_direct_children_of_a_smart_link.md",
+      "kind": "tool",
+      "name": "confluence_get_direct_children_of_a_smart_link",
+      "title": "Confluence v2 - Get direct children of a Smart Link",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get direct children of a Smart Link.md"
+    },
+    {
+      "path": "Tools/confluence_get_direct_children_of_a_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_get_direct_children_of_a_whiteboard",
+      "title": "Confluence v2 - Get direct children of a whiteboard",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get direct children of a whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_get_folder_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_folder_by_id",
+      "title": "Confluence v2 - Get folder by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get folder by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_footer_comment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_footer_comment_by_id",
+      "title": "Confluence v2 - Get footer comment by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get footer comment by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_footer_comment_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_footer_comment_versions",
+      "title": "Confluence v2 - Get footer comment versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get footer comment versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_footer_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_footer_comments",
+      "title": "Confluence v2 - Get footer comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get footer comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_footer_comments_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_footer_comments_for_blog_post",
+      "title": "Confluence v2 - Get footer comments for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get footer comments for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_footer_comments_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_footer_comments_for_page",
+      "title": "Confluence v2 - Get footer comments for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get footer comments for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_forge_app_properties.md",
+      "kind": "tool",
+      "name": "confluence_get_forge_app_properties",
+      "title": "Confluence v2 - Get Forge app properties",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get Forge app properties.md"
+    },
+    {
+      "path": "Tools/confluence_get_inline_comment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_inline_comment_by_id",
+      "title": "Confluence v2 - Get inline comment by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get inline comment by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_inline_comment_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_inline_comment_versions",
+      "title": "Confluence v2 - Get inline comment versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get inline comment versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_inline_comments.md",
+      "kind": "tool",
+      "name": "confluence_get_inline_comments",
+      "title": "Confluence v2 - Get inline comments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get inline comments.md"
+    },
+    {
+      "path": "Tools/confluence_get_inline_comments_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_inline_comments_for_blog_post",
+      "title": "Confluence v2 - Get inline comments for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get inline comments for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_inline_comments_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_inline_comments_for_page",
+      "title": "Confluence v2 - Get inline comments for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get inline comments for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels.md",
+      "kind": "tool",
+      "name": "confluence_get_labels",
+      "title": "Confluence v2 - Get labels",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_attachment.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_attachment",
+      "title": "Confluence v2 - Get labels for attachment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for attachment.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_blog_post",
+      "title": "Confluence v2 - Get labels for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_custom_content",
+      "title": "Confluence v2 - Get labels for custom content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for custom content.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_page",
+      "title": "Confluence v2 - Get labels for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_space.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_space",
+      "title": "Confluence v2 - Get labels for space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for space.md"
+    },
+    {
+      "path": "Tools/confluence_get_labels_for_space_content.md",
+      "kind": "tool",
+      "name": "confluence_get_labels_for_space_content",
+      "title": "Confluence v2 - Get labels for space content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get labels for space content.md"
+    },
+    {
+      "path": "Tools/confluence_get_like_count_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_like_count_for_blog_post",
+      "title": "Confluence v2 - Get like count for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get like count for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_like_count_for_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_like_count_for_footer_comment",
+      "title": "Confluence v2 - Get like count for footer comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get like count for footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_like_count_for_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_like_count_for_inline_comment",
+      "title": "Confluence v2 - Get like count for inline comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get like count for inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_like_count_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_like_count_for_page",
+      "title": "Confluence v2 - Get like count for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get like count for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_list_of_classification_levels.md",
+      "kind": "tool",
+      "name": "confluence_get_list_of_classification_levels",
+      "title": "Confluence v2 - Get list of classification levels",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get list of classification levels.md"
+    },
+    {
+      "path": "Tools/confluence_get_page_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_page_by_id",
+      "title": "Confluence v2 - Get page by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get page by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_page_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_get_page_classification_level",
+      "title": "Confluence v2 - Get page classification level",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get page classification level.md"
+    },
+    {
+      "path": "Tools/confluence_get_page_versions.md",
+      "kind": "tool",
+      "name": "confluence_get_page_versions",
+      "title": "Confluence v2 - Get page versions",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get page versions.md"
+    },
+    {
+      "path": "Tools/confluence_get_pages.md",
+      "kind": "tool",
+      "name": "confluence_get_pages",
+      "title": "Confluence v2 - Get pages",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get pages.md"
+    },
+    {
+      "path": "Tools/confluence_get_pages_for_label.md",
+      "kind": "tool",
+      "name": "confluence_get_pages_for_label",
+      "title": "Confluence v2 - Get pages for label",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get pages for label.md"
+    },
+    {
+      "path": "Tools/confluence_get_pages_in_space.md",
+      "kind": "tool",
+      "name": "confluence_get_pages_in_space",
+      "title": "Confluence v2 - Get pages in space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get pages in space.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_a_database.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_a_database",
+      "title": "Confluence v2 - Get permitted operations for a database",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for a database.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_a_folder.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_a_folder",
+      "title": "Confluence v2 - Get permitted operations for a folder",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for a folder.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_a_smart_link_in_the_cont.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_a_smart_link_in_the_cont",
+      "title": "Confluence v2 - Get permitted operations for a Smart Link in the content tree",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for a Smart Link in the content tree.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_a_whiteboard.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_a_whiteboard",
+      "title": "Confluence v2 - Get permitted operations for a whiteboard",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for a whiteboard.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_attachment.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_attachment",
+      "title": "Confluence v2 - Get permitted operations for attachment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for attachment.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_blog_post",
+      "title": "Confluence v2 - Get permitted operations for blog post",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for blog post.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_custom_content",
+      "title": "Confluence v2 - Get permitted operations for custom content",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for custom content.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_footer_comment",
+      "title": "Confluence v2 - Get permitted operations for footer comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_inline_comment",
+      "title": "Confluence v2 - Get permitted operations for inline comment",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_page.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_page",
+      "title": "Confluence v2 - Get permitted operations for page",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for page.md"
+    },
+    {
+      "path": "Tools/confluence_get_permitted_operations_for_space.md",
+      "kind": "tool",
+      "name": "confluence_get_permitted_operations_for_space",
+      "title": "Confluence v2 - Get permitted operations for space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get permitted operations for space.md"
+    },
+    {
+      "path": "Tools/confluence_get_smart_link_in_the_content_tree_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_smart_link_in_the_content_tree_by_id",
+      "title": "Confluence v2 - Get Smart Link in the content tree by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get Smart Link in the content tree by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_space_by_id",
+      "title": "Confluence v2 - Get space by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_default_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_get_space_default_classification_level",
+      "title": "Confluence v2 - Get space default classification level",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space default classification level.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_permission_transition_task_status.md",
+      "kind": "tool",
+      "name": "confluence_get_space_permission_transition_task_status",
+      "title": "Confluence v2 - Get space permission transition task status",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space permission transition task status.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_permissions_assignments.md",
+      "kind": "tool",
+      "name": "confluence_get_space_permissions_assignments",
+      "title": "Confluence v2 - Get space permissions assignments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space permissions assignments.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_properties_in_space.md",
+      "kind": "tool",
+      "name": "confluence_get_space_properties_in_space",
+      "title": "Confluence v2 - Get space properties in space",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space properties in space.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_property_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_space_property_by_id",
+      "title": "Confluence v2 - Get space property by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space property by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_role_assignments.md",
+      "kind": "tool",
+      "name": "confluence_get_space_role_assignments",
+      "title": "Confluence v2 - Get space role assignments",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space role assignments.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_role_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_space_role_by_id",
+      "title": "Confluence v2 - Get space role by ID",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space role by ID.md"
+    },
+    {
+      "path": "Tools/confluence_get_space_role_mode.md",
+      "kind": "tool",
+      "name": "confluence_get_space_role_mode",
+      "title": "Confluence v2 - Get space role mode",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get space role mode.md"
+    },
+    {
+      "path": "Tools/confluence_get_spaces.md",
+      "kind": "tool",
+      "name": "confluence_get_spaces",
+      "title": "Confluence v2 - Get spaces",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get spaces.md"
+    },
+    {
+      "path": "Tools/confluence_get_spaces_with_data_policies.md",
+      "kind": "tool",
+      "name": "confluence_get_spaces_with_data_policies",
+      "title": "Confluence v2 - Get spaces with data policies",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get spaces with data policies.md"
+    },
+    {
+      "path": "Tools/confluence_get_task_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_task_by_id",
+      "title": "Confluence v2 - Get task by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get task by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_tasks.md",
+      "kind": "tool",
+      "name": "confluence_get_tasks",
+      "title": "Confluence v2 - Get tasks",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get tasks.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_attachment_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_attachment_version",
+      "title": "Confluence v2 - Get version details for attachment version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for attachment version.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_blog_post_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_blog_post_version",
+      "title": "Confluence v2 - Get version details for blog post version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for blog post version.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_custom_content_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_custom_content_version",
+      "title": "Confluence v2 - Get version details for custom content version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for custom content version.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_footer_comment_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_footer_comment_version",
+      "title": "Confluence v2 - Get version details for footer comment version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for footer comment version.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_inline_comment_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_inline_comment_version",
+      "title": "Confluence v2 - Get version details for inline comment version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for inline comment version.md"
+    },
+    {
+      "path": "Tools/confluence_get_version_details_for_page_version.md",
+      "kind": "tool",
+      "name": "confluence_get_version_details_for_page_version",
+      "title": "Confluence v2 - Get version details for page version",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get version details for page version.md"
+    },
+    {
+      "path": "Tools/confluence_get_whiteboard_by_id.md",
+      "kind": "tool",
+      "name": "confluence_get_whiteboard_by_id",
+      "title": "Confluence v2 - Get whiteboard by id",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get whiteboard by id.md"
+    },
+    {
+      "path": "Tools/confluence_get_whiteboard_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_get_whiteboard_classification_level",
+      "title": "Confluence v2 - Get whiteboard classification level",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - Get whiteboard classification level.md"
+    },
+    {
+      "path": "Tools/confluence_invite_a_list_of_emails_to_the_site.md",
+      "kind": "tool",
+      "name": "confluence_invite_a_list_of_emails_to_the_site",
+      "title": "Confluence v2 - Invite a list of emails to the site",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Invite a list of emails to the site.md"
+    },
+    {
+      "path": "Tools/confluence_list_unassigned_space_permission_combinations.md",
+      "kind": "tool",
+      "name": "confluence_list_unassigned_space_permission_combinations",
+      "title": "Confluence v2 - List unassigned space permission combinations",
+      "writes": false,
+      "pair": "Requests/Confluence v2 - List unassigned space permission combinations.md"
+    },
+    {
+      "path": "Tools/confluence_redact_content_in_a_confluence_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_redact_content_in_a_confluence_blog_post",
+      "title": "Confluence v2 - Redact Content in a Confluence Blog Post",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Redact Content in a Confluence Blog Post.md"
+    },
+    {
+      "path": "Tools/confluence_redact_content_in_a_confluence_page.md",
+      "kind": "tool",
+      "name": "confluence_redact_content_in_a_confluence_page",
+      "title": "Confluence v2 - Redact Content in a Confluence Page",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Redact Content in a Confluence Page.md"
+    },
+    {
+      "path": "Tools/confluence_reset_blog_post_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_reset_blog_post_classification_level",
+      "title": "Confluence v2 - Reset blog post classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Reset blog post classification level.md"
+    },
+    {
+      "path": "Tools/confluence_reset_database_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_reset_database_classification_level",
+      "title": "Confluence v2 - Reset database classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Reset database classification level.md"
+    },
+    {
+      "path": "Tools/confluence_reset_page_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_reset_page_classification_level",
+      "title": "Confluence v2 - Reset page classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Reset page classification level.md"
+    },
+    {
+      "path": "Tools/confluence_reset_whiteboard_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_reset_whiteboard_classification_level",
+      "title": "Confluence v2 - Reset whiteboard classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Reset whiteboard classification level.md"
+    },
+    {
+      "path": "Tools/confluence_set_space_role_assignments.md",
+      "kind": "tool",
+      "name": "confluence_set_space_role_assignments",
+      "title": "Confluence v2 - Set space role assignments",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Set space role assignments.md"
+    },
+    {
+      "path": "Tools/confluence_update_a_space_role.md",
+      "kind": "tool",
+      "name": "confluence_update_a_space_role",
+      "title": "Confluence v2 - Update a space role",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update a space role.md"
+    },
+    {
+      "path": "Tools/confluence_update_blog_post.md",
+      "kind": "tool",
+      "name": "confluence_update_blog_post",
+      "title": "Confluence v2 - Update blog post",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update blog post.md"
+    },
+    {
+      "path": "Tools/confluence_update_blog_post_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_update_blog_post_classification_level",
+      "title": "Confluence v2 - Update blog post classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update blog post classification level.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_attachment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_attachment_by_id",
+      "title": "Confluence v2 - Update content property for attachment by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for attachment by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_blog_post_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_blog_post_by_id",
+      "title": "Confluence v2 - Update content property for blog post by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for blog post by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_comment_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_comment_by_id",
+      "title": "Confluence v2 - Update content property for comment by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for comment by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_custom_content_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_custom_content_by_id",
+      "title": "Confluence v2 - Update content property for custom content by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for custom content by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_database_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_database_by_id",
+      "title": "Confluence v2 - Update content property for database by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for database by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_folder_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_folder_by_id",
+      "title": "Confluence v2 - Update content property for folder by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for folder by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_page_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_page_by_id",
+      "title": "Confluence v2 - Update content property for page by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for page by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_smart_link_in_the_content.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_smart_link_in_the_content",
+      "title": "Confluence v2 - Update content property for Smart Link in the content tree by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for Smart Link in the content tree by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_content_property_for_whiteboard_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_content_property_for_whiteboard_by_id",
+      "title": "Confluence v2 - Update content property for whiteboard by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update content property for whiteboard by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_custom_content.md",
+      "kind": "tool",
+      "name": "confluence_update_custom_content",
+      "title": "Confluence v2 - Update custom content",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update custom content.md"
+    },
+    {
+      "path": "Tools/confluence_update_database_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_update_database_classification_level",
+      "title": "Confluence v2 - Update database classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update database classification level.md"
+    },
+    {
+      "path": "Tools/confluence_update_footer_comment.md",
+      "kind": "tool",
+      "name": "confluence_update_footer_comment",
+      "title": "Confluence v2 - Update footer comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update footer comment.md"
+    },
+    {
+      "path": "Tools/confluence_update_inline_comment.md",
+      "kind": "tool",
+      "name": "confluence_update_inline_comment",
+      "title": "Confluence v2 - Update inline comment",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update inline comment.md"
+    },
+    {
+      "path": "Tools/confluence_update_page.md",
+      "kind": "tool",
+      "name": "confluence_update_page",
+      "title": "Confluence v2 - Update page",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update page.md"
+    },
+    {
+      "path": "Tools/confluence_update_page_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_update_page_classification_level",
+      "title": "Confluence v2 - Update page classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update page classification level.md"
+    },
+    {
+      "path": "Tools/confluence_update_page_title.md",
+      "kind": "tool",
+      "name": "confluence_update_page_title",
+      "title": "Confluence v2 - Update page title",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update page title.md"
+    },
+    {
+      "path": "Tools/confluence_update_space_default_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_update_space_default_classification_level",
+      "title": "Confluence v2 - Update space default classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update space default classification level.md"
+    },
+    {
+      "path": "Tools/confluence_update_space_property_by_id.md",
+      "kind": "tool",
+      "name": "confluence_update_space_property_by_id",
+      "title": "Confluence v2 - Update space property by id",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update space property by id.md"
+    },
+    {
+      "path": "Tools/confluence_update_task.md",
+      "kind": "tool",
+      "name": "confluence_update_task",
+      "title": "Confluence v2 - Update task",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update task.md"
+    },
+    {
+      "path": "Tools/confluence_update_whiteboard_classification_level.md",
+      "kind": "tool",
+      "name": "confluence_update_whiteboard_classification_level",
+      "title": "Confluence v2 - Update whiteboard classification level",
+      "writes": true,
+      "pair": "Requests/Confluence v2 - Update whiteboard classification level.md"
+    },
+    {
+      "path": "Requests/Confluence v2 - Bulk assign space permission roles.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Bulk remove space permission access.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Check site access for a list of emails.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Convert content ids to content types.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create Smart Link in the content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create a space role.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create bulk user lookup using ids.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for Smart Link in the content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create content property for whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create or update a Forge app property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create space property in space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Create whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete Smart Link in the content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete a space role.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for Smart Link in the content tree by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for attachment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for blogpost by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for custom content by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for database by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for folder by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for page by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete content property for whiteboard by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete space default classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete space property by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Delete whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Deletes a Forge app property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Disable Admin Key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Download attachment thumbnail by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Enable Admin Key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Generate space permission combinations.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get Admin Key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get Forge app properties.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get Smart Link in the content tree by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get a Forge app property by key.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get account IDs of likes for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get account IDs of likes for footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get account IDs of likes for inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get account IDs of likes for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get all ancestors of Smart Link in content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get all ancestors of database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get all ancestors of folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get all ancestors of page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get all ancestors of whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachment comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachment versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachments for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachments for custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachments for label.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachments for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get attachments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get available space permissions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get available space roles.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog post by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog post classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog post versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog posts for label.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog posts in space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get blog posts.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get child custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get child pages.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get children footer comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get children inline comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for Smart Link in the content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content properties for whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for Smart Link in the content tree by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for attachment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for blog post by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for custom content by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for database by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for folder by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for page by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get content property for whiteboard by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content by type in blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content by type in page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content by type in space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content by type.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get custom content versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get data policy metadata for the workspace.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get database by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get database classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get descendants of a database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get descendants of a smart link.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get descendants of a whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get descendants of folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get descendants of page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get direct children of a Smart Link.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get direct children of a database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get direct children of a folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get direct children of a page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get direct children of a whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get folder by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get footer comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get footer comment versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get footer comments for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get footer comments for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get footer comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get inline comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get inline comment versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get inline comments for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get inline comments for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get inline comments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for space content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels for space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get labels.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get like count for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get like count for footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get like count for inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get like count for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get list of classification levels.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get page by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get page classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get page versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get pages for label.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get pages in space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get pages.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for a Smart Link in the content tree.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for a database.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for a folder.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for a whiteboard.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for attachment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get permitted operations for space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space default classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space permission transition task status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space permissions assignments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space properties in space.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space property by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space role assignments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space role by ID.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get space role mode.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get spaces with data policies.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get spaces.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get task by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get tasks.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for attachment version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for blog post version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for custom content version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for footer comment version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for inline comment version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get version details for page version.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get whiteboard by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Get whiteboard classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Invite a list of emails to the site.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - List unassigned space permission combinations.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Redact Content in a Confluence Blog Post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Redact Content in a Confluence Page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Reset blog post classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Reset database classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Reset page classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Reset whiteboard classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Set space role assignments.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update a space role.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update blog post classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update blog post.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for Smart Link in the content tree by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for attachment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for blog post by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for comment by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for custom content by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for database by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for folder by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for page by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update content property for whiteboard by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update custom content.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update database classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update footer comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update inline comment.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update page classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update page title.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update page.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update space default classification level.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update space property by id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update task.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Confluence v2 - Update whiteboard classification level.md",
+      "kind": "request"
+    }
+  ]
+}

@@ -1,0 +1,921 @@
+{
+  "id": "jsw",
+  "name": "Jira Software MCP",
+  "tag": "api/app/jira-software",
+  "logo": "atlassian",
+  "index": "MCP - JSW.md",
+  "files": [
+    {
+      "path": "MCP - JSW.md",
+      "kind": "index"
+    },
+    {
+      "path": "Tools/jsw_create_board.md",
+      "kind": "tool",
+      "name": "jsw_create_board",
+      "title": "JSW - Create board",
+      "writes": true,
+      "pair": "Requests/JSW - Create board.md"
+    },
+    {
+      "path": "Tools/jsw_create_sprint.md",
+      "kind": "tool",
+      "name": "jsw_create_sprint",
+      "title": "JSW - Create sprint",
+      "writes": true,
+      "pair": "Requests/JSW - Create sprint.md"
+    },
+    {
+      "path": "Tools/jsw_delete_board.md",
+      "kind": "tool",
+      "name": "jsw_delete_board",
+      "title": "JSW - Delete board",
+      "writes": true,
+      "pair": "Requests/JSW - Delete board.md"
+    },
+    {
+      "path": "Tools/jsw_delete_board_property.md",
+      "kind": "tool",
+      "name": "jsw_delete_board_property",
+      "title": "JSW - Delete board property",
+      "writes": true,
+      "pair": "Requests/JSW - Delete board property.md"
+    },
+    {
+      "path": "Tools/jsw_delete_property.md",
+      "kind": "tool",
+      "name": "jsw_delete_property",
+      "title": "JSW - Delete property",
+      "writes": true,
+      "pair": "Requests/JSW - Delete property.md"
+    },
+    {
+      "path": "Tools/jsw_delete_sprint.md",
+      "kind": "tool",
+      "name": "jsw_delete_sprint",
+      "title": "JSW - Delete sprint",
+      "writes": true,
+      "pair": "Requests/JSW - Delete sprint.md"
+    },
+    {
+      "path": "Tools/jsw_estimate_issue_for_board.md",
+      "kind": "tool",
+      "name": "jsw_estimate_issue_for_board",
+      "title": "JSW - Estimate issue for board",
+      "writes": true,
+      "pair": "Requests/JSW - Estimate issue for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_all_boards.md",
+      "kind": "tool",
+      "name": "jsw_get_all_boards",
+      "title": "JSW - Get all boards",
+      "writes": false,
+      "pair": "Requests/JSW - Get all boards.md"
+    },
+    {
+      "path": "Tools/jsw_get_all_quick_filters.md",
+      "kind": "tool",
+      "name": "jsw_get_all_quick_filters",
+      "title": "JSW - Get all quick filters",
+      "writes": false,
+      "pair": "Requests/JSW - Get all quick filters.md"
+    },
+    {
+      "path": "Tools/jsw_get_all_sprints.md",
+      "kind": "tool",
+      "name": "jsw_get_all_sprints",
+      "title": "JSW - Get all sprints",
+      "writes": false,
+      "pair": "Requests/JSW - Get all sprints.md"
+    },
+    {
+      "path": "Tools/jsw_get_all_versions.md",
+      "kind": "tool",
+      "name": "jsw_get_all_versions",
+      "title": "JSW - Get all versions",
+      "writes": false,
+      "pair": "Requests/JSW - Get all versions.md"
+    },
+    {
+      "path": "Tools/jsw_get_approximate_issue_count_for_backlog.md",
+      "kind": "tool",
+      "name": "jsw_get_approximate_issue_count_for_backlog",
+      "title": "JSW - Get approximate issue count for backlog",
+      "writes": false,
+      "pair": "Requests/JSW - Get approximate issue count for backlog.md"
+    },
+    {
+      "path": "Tools/jsw_get_approximate_issue_count_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_approximate_issue_count_for_board",
+      "title": "JSW - Get approximate issue count for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get approximate issue count for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_board.md",
+      "kind": "tool",
+      "name": "jsw_get_board",
+      "title": "JSW - Get board",
+      "writes": false,
+      "pair": "Requests/JSW - Get board.md"
+    },
+    {
+      "path": "Tools/jsw_get_board_by_filter_id.md",
+      "kind": "tool",
+      "name": "jsw_get_board_by_filter_id",
+      "title": "JSW - Get board by filter id",
+      "writes": false,
+      "pair": "Requests/JSW - Get board by filter id.md"
+    },
+    {
+      "path": "Tools/jsw_get_board_issues_for_epic.md",
+      "kind": "tool",
+      "name": "jsw_get_board_issues_for_epic",
+      "title": "JSW - Get board issues for epic",
+      "writes": false,
+      "pair": "Requests/JSW - Get board issues for epic.md"
+    },
+    {
+      "path": "Tools/jsw_get_board_issues_for_epic_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_board_issues_for_epic_enhanced",
+      "title": "JSW - Get board issues for epic (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get board issues for epic (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_board_issues_for_sprint.md",
+      "kind": "tool",
+      "name": "jsw_get_board_issues_for_sprint",
+      "title": "JSW - Get board issues for sprint",
+      "writes": false,
+      "pair": "Requests/JSW - Get board issues for sprint.md"
+    },
+    {
+      "path": "Tools/jsw_get_board_issues_for_sprint_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_board_issues_for_sprint_enhanced",
+      "title": "JSW - Get board issues for sprint (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get board issues for sprint (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_board_property.md",
+      "kind": "tool",
+      "name": "jsw_get_board_property",
+      "title": "JSW - Get board property",
+      "writes": false,
+      "pair": "Requests/JSW - Get board property.md"
+    },
+    {
+      "path": "Tools/jsw_get_board_property_keys.md",
+      "kind": "tool",
+      "name": "jsw_get_board_property_keys",
+      "title": "JSW - Get board property keys",
+      "writes": false,
+      "pair": "Requests/JSW - Get board property keys.md"
+    },
+    {
+      "path": "Tools/jsw_get_configuration.md",
+      "kind": "tool",
+      "name": "jsw_get_configuration",
+      "title": "JSW - Get configuration",
+      "writes": false,
+      "pair": "Requests/JSW - Get configuration.md"
+    },
+    {
+      "path": "Tools/jsw_get_epic.md",
+      "kind": "tool",
+      "name": "jsw_get_epic",
+      "title": "JSW - Get epic",
+      "writes": false,
+      "pair": "Requests/JSW - Get epic.md"
+    },
+    {
+      "path": "Tools/jsw_get_epics.md",
+      "kind": "tool",
+      "name": "jsw_get_epics",
+      "title": "JSW - Get epics",
+      "writes": false,
+      "pair": "Requests/JSW - Get epics.md"
+    },
+    {
+      "path": "Tools/jsw_get_features_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_features_for_board",
+      "title": "JSW - Get features for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get features for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_issue.md",
+      "kind": "tool",
+      "name": "jsw_get_issue",
+      "title": "JSW - Get issue",
+      "writes": false,
+      "pair": "Requests/JSW - Get issue.md"
+    },
+    {
+      "path": "Tools/jsw_get_issue_estimation_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_issue_estimation_for_board",
+      "title": "JSW - Get issue estimation for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get issue estimation for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_backlog.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_backlog",
+      "title": "JSW - Get issues for backlog",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for backlog.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_backlog_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_backlog_enhanced",
+      "title": "JSW - Get issues for backlog (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for backlog (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_board",
+      "title": "JSW - Get issues for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_board_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_board_enhanced",
+      "title": "JSW - Get issues for board (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for board (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_epic.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_epic",
+      "title": "JSW - Get issues for epic",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for epic.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_epic_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_epic_enhanced",
+      "title": "JSW - Get issues for epic (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for epic (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_sprint.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_sprint",
+      "title": "JSW - Get issues for sprint",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for sprint.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_for_sprint_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_for_sprint_enhanced",
+      "title": "JSW - Get issues for sprint (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues for sprint (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_without_epic.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_without_epic",
+      "title": "JSW - Get issues without epic",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues without epic.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_without_epic_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_without_epic_enhanced",
+      "title": "JSW - Get issues without epic (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues without epic (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_without_epic_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_without_epic_for_board",
+      "title": "JSW - Get issues without epic for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues without epic for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_issues_without_epic_for_board_enhanced.md",
+      "kind": "tool",
+      "name": "jsw_get_issues_without_epic_for_board_enhanced",
+      "title": "JSW - Get issues without epic for board (enhanced)",
+      "writes": false,
+      "pair": "Requests/JSW - Get issues without epic for board (enhanced).md"
+    },
+    {
+      "path": "Tools/jsw_get_projects.md",
+      "kind": "tool",
+      "name": "jsw_get_projects",
+      "title": "JSW - Get projects",
+      "writes": false,
+      "pair": "Requests/JSW - Get projects.md"
+    },
+    {
+      "path": "Tools/jsw_get_projects_full.md",
+      "kind": "tool",
+      "name": "jsw_get_projects_full",
+      "title": "JSW - Get projects full",
+      "writes": false,
+      "pair": "Requests/JSW - Get projects full.md"
+    },
+    {
+      "path": "Tools/jsw_get_properties_keys.md",
+      "kind": "tool",
+      "name": "jsw_get_properties_keys",
+      "title": "JSW - Get properties keys",
+      "writes": false,
+      "pair": "Requests/JSW - Get properties keys.md"
+    },
+    {
+      "path": "Tools/jsw_get_property.md",
+      "kind": "tool",
+      "name": "jsw_get_property",
+      "title": "JSW - Get property",
+      "writes": false,
+      "pair": "Requests/JSW - Get property.md"
+    },
+    {
+      "path": "Tools/jsw_get_quick_filter.md",
+      "kind": "tool",
+      "name": "jsw_get_quick_filter",
+      "title": "JSW - Get quick filter",
+      "writes": false,
+      "pair": "Requests/JSW - Get quick filter.md"
+    },
+    {
+      "path": "Tools/jsw_get_reports_for_board.md",
+      "kind": "tool",
+      "name": "jsw_get_reports_for_board",
+      "title": "JSW - Get reports for board",
+      "writes": false,
+      "pair": "Requests/JSW - Get reports for board.md"
+    },
+    {
+      "path": "Tools/jsw_get_sprint.md",
+      "kind": "tool",
+      "name": "jsw_get_sprint",
+      "title": "JSW - Get sprint",
+      "writes": false,
+      "pair": "Requests/JSW - Get sprint.md"
+    },
+    {
+      "path": "Tools/jsw_move_issues_to_backlog.md",
+      "kind": "tool",
+      "name": "jsw_move_issues_to_backlog",
+      "title": "JSW - Move issues to backlog",
+      "writes": true,
+      "pair": "Requests/JSW - Move issues to backlog.md"
+    },
+    {
+      "path": "Tools/jsw_move_issues_to_backlog_for_board.md",
+      "kind": "tool",
+      "name": "jsw_move_issues_to_backlog_for_board",
+      "title": "JSW - Move issues to backlog for board",
+      "writes": true,
+      "pair": "Requests/JSW - Move issues to backlog for board.md"
+    },
+    {
+      "path": "Tools/jsw_move_issues_to_board.md",
+      "kind": "tool",
+      "name": "jsw_move_issues_to_board",
+      "title": "JSW - Move issues to board",
+      "writes": true,
+      "pair": "Requests/JSW - Move issues to board.md"
+    },
+    {
+      "path": "Tools/jsw_move_issues_to_epic.md",
+      "kind": "tool",
+      "name": "jsw_move_issues_to_epic",
+      "title": "JSW - Move issues to epic",
+      "writes": true,
+      "pair": "Requests/JSW - Move issues to epic.md"
+    },
+    {
+      "path": "Tools/jsw_move_issues_to_sprint_and_rank.md",
+      "kind": "tool",
+      "name": "jsw_move_issues_to_sprint_and_rank",
+      "title": "JSW - Move issues to sprint and rank",
+      "writes": true,
+      "pair": "Requests/JSW - Move issues to sprint and rank.md"
+    },
+    {
+      "path": "Tools/jsw_partially_update_epic.md",
+      "kind": "tool",
+      "name": "jsw_partially_update_epic",
+      "title": "JSW - Partially update epic",
+      "writes": true,
+      "pair": "Requests/JSW - Partially update epic.md"
+    },
+    {
+      "path": "Tools/jsw_partially_update_sprint.md",
+      "kind": "tool",
+      "name": "jsw_partially_update_sprint",
+      "title": "JSW - Partially update sprint",
+      "writes": true,
+      "pair": "Requests/JSW - Partially update sprint.md"
+    },
+    {
+      "path": "Tools/jsw_rank_epics.md",
+      "kind": "tool",
+      "name": "jsw_rank_epics",
+      "title": "JSW - Rank epics",
+      "writes": true,
+      "pair": "Requests/JSW - Rank epics.md"
+    },
+    {
+      "path": "Tools/jsw_rank_issues.md",
+      "kind": "tool",
+      "name": "jsw_rank_issues",
+      "title": "JSW - Rank issues",
+      "writes": true,
+      "pair": "Requests/JSW - Rank issues.md"
+    },
+    {
+      "path": "Tools/jsw_remove_issues_from_epic.md",
+      "kind": "tool",
+      "name": "jsw_remove_issues_from_epic",
+      "title": "JSW - Remove issues from epic",
+      "writes": true,
+      "pair": "Requests/JSW - Remove issues from epic.md"
+    },
+    {
+      "path": "Tools/jsw_set_board_property.md",
+      "kind": "tool",
+      "name": "jsw_set_board_property",
+      "title": "JSW - Set board property",
+      "writes": true,
+      "pair": "Requests/JSW - Set board property.md"
+    },
+    {
+      "path": "Tools/jsw_set_property.md",
+      "kind": "tool",
+      "name": "jsw_set_property",
+      "title": "JSW - Set property",
+      "writes": true,
+      "pair": "Requests/JSW - Set property.md"
+    },
+    {
+      "path": "Tools/jsw_swap_sprint.md",
+      "kind": "tool",
+      "name": "jsw_swap_sprint",
+      "title": "JSW - Swap sprint",
+      "writes": true,
+      "pair": "Requests/JSW - Swap sprint.md"
+    },
+    {
+      "path": "Tools/jsw_toggle_features.md",
+      "kind": "tool",
+      "name": "jsw_toggle_features",
+      "title": "JSW - Toggle features",
+      "writes": true,
+      "pair": "Requests/JSW - Toggle features.md"
+    },
+    {
+      "path": "Tools/jsw_update_sprint.md",
+      "kind": "tool",
+      "name": "jsw_update_sprint",
+      "title": "JSW - Update sprint",
+      "writes": true,
+      "pair": "Requests/JSW - Update sprint.md"
+    },
+    {
+      "path": "Requests/JSW - Check if data exists for the supplied properties.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Create board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Create sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Delete DevOps Components by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete Feature Flags by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete Incidents or Review by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete Operations Workpaces by Id.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete Remote Links by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete Vulnerabilities by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Component by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Feature Flag by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Incident by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Remote Link by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Review by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a Vulnerability by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a build by key.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete a deployment by key.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete board property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Delete board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Delete builds by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete deployments by Property.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete development information by properties.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete development information entity.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete linked Security Workspaces.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Delete repository.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Delete sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Estimate issue for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get a Component by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a Feature Flag by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a Incident by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a Remote Link by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a Review by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a Vulnerability by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a build by key.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a deployment by key.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get a linked Security Workspace by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get all Operations Workspace IDs or a specific Operations Workspace by ID.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get all boards.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get all quick filters.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get all sprints.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get all versions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get approximate issue count for backlog.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get approximate issue count for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board by filter id.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board issues for epic (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board issues for epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board issues for sprint (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board issues for sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board property keys.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get configuration.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get deployment gating status by key.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get epics.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get features for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issue estimation for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issue.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for backlog (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for backlog.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for board (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for epic (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for sprint (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues for sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues without epic (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues without epic for board (enhanced).md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues without epic for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get issues without epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get linked Security Workspaces.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get projects full.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get projects.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get properties keys.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get quick filter.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get reports for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Get repository.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Get sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Move issues to backlog for board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Move issues to backlog.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Move issues to board.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Move issues to epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Move issues to sprint and rank.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Partially update epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Partially update sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Rank epics.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Rank issues.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Remove issues from epic.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Set board property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Set property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Store development information.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit DevOps Components.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Feature Flag data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Incident or Review data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Operations Workspace Ids.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Remote Link data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Security Workspaces to link.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit Vulnerability data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit build data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Submit deployment data.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/JSW - Swap sprint.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Toggle features.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/JSW - Update sprint.md",
+      "kind": "request"
+    }
+  ]
+}

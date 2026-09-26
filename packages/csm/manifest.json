@@ -1,0 +1,253 @@
+{
+  "id": "csm",
+  "name": "CSM MCP",
+  "tag": "api/app/csm",
+  "logo": "atlassian",
+  "index": "MCP - CSM.md",
+  "files": [
+    {
+      "path": "MCP - CSM.md",
+      "kind": "index"
+    },
+    {
+      "path": "Requests/CSM - Bulk create customer detail field definitions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk create organization detail field definitions.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage customer accounts.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage customers' detail field values.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage multiple customer profiles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage organization profiles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage organizations' detail field values.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Bulk manage organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create CSM request from external intake channel.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create customer account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create customer detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create customer entitlement.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create customer profile.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create entitlement detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create organization detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create organization entitlement.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create organization profile.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Create product.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete customer account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete customer detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete entitlement detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete entitlement.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete organization detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Delete product.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Edit customer detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Edit entitlement detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Edit organization detail field.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Fetch multiple customer profiles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Fetch multiple organization profiles.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Fetch multiple organizations.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer accessible customer experiences.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer detail fields.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer entitlements.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer profile.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get customer.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get entitlement detail fields.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get entitlement.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get entitlements.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get organization detail fields.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get organization entitlements.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get organization profile.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get organization.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get organizations with access to a Customer Experience.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get product.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get products.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Get task status.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Grant organizations access to a Customer Experience.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Raise issue on the help center.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Remove an organization from a Customer Experience.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Rename product.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Search customer by detail field and value.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Set customer detail.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Set entitlement detail.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Set organization detail.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Update customer account.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Update issue with a comment.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/CSM - Update organization.md",
+      "kind": "request-only"
+    }
+  ]
+}
