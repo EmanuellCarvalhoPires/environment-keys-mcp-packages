@@ -1,0 +1,45 @@
+---
+tags:
+  - api/request
+  - api/service/atlassian
+  - api/app/jira
+  - api/resource/screen-tab-fields
+  - api/operation/list
+  - api/effect/read
+  - api/permission/global-admin
+  - api/permission/project-admin
+up: "[[MCP - Jira v3]]"
+app: "Jira v3"
+method: GET
+path: "/rest/api/3/screens/{screenId}/tabs/{tabId}/fields"
+category: "Screen tab fields"
+writes_data: false
+tool_note: "[[jira_get_all_screen_tab_fields]]"
+---
+# Jira v3 - Get all screen tab fields
+
+**Get all screen tab fields** — `GET /rest/api/3/screens/{screenId}/tabs/{tabId}/fields`
+
+- Run by the tool [[jira_get_all_screen_tab_fields]].
+- Official documentation: https://developer.atlassian.com/cloud/jira/platform/rest/v3/
+
+```http
+GET {{service.url}}/rest/api/3/screens/{{param:screenId}}/tabs/{{param:tabId}}/fields?projectKey={{param:projectKey}}
+Authorization: {{service.auth_token}}
+Accept: application/json
+```
+
+## Parameters
+
+- `screenId` (path, string, required) — The ID of the screen.
+- `tabId` (path, string, required) — The ID of the screen tab.
+- `projectKey` (query, string, optional) — The key of the project.
+
+## Original description
+
+Returns all fields for a screen tab.
+
+**[Permissions](#permissions) required:**
+
+ *  *Administer Jira* [global permission](https://confluence.atlassian.com/x/x4dKLg).
+ *  *Administer projects* [project permission](https://confluence.atlassian.com/x/yodKLg) when the project key is specified, providing that the screen is associated with the project through a Screen Scheme and Issue Type Screen Scheme.

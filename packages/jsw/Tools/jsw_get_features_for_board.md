@@ -1,0 +1,32 @@
+---
+tags:
+  - mcp/tool
+  - api/service/atlassian
+  - api/app/jira-software
+  - api/resource/board
+  - api/operation/list
+  - api/effect/read
+up: "[[MCP - JSW]]"
+tool: jsw_get_features_for_board
+title: "JSW - Get features for board"
+kind: request
+request: "[[JSW - Get features for board]]"
+service_tag: atlassian/instance
+service_param: instance
+service_exclude_tag: template
+description: "JSW · GET /rest/agile/1.0/board/{boardId}/features · Get features for board. Writes data: no."
+params:
+  "boardId":
+    type: string
+    required: true
+    description: "Value of boardId in the path."
+writes: false
+expose: false
+---
+# jsw_get_features_for_board
+
+`GET /rest/agile/1.0/board/{boardId}/features` — Get features for board
+
+- Request: [[JSW - Get features for board]]
+- Instance: `instance` parameter (notes tagged `atlassian/instance`)
+- Writes data: no
