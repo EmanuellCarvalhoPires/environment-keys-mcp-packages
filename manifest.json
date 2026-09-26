@@ -10,7 +10,8 @@
       "toolCount": 60,
       "requestOnlyCount": 1,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 61
     },
     {
       "id": "automation",
@@ -21,51 +22,56 @@
       "toolCount": 15,
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 15
     },
     {
       "id": "bitbucket",
       "name": "Bitbucket MCP",
       "tag": "api/app/bitbucket",
-      "logo": "atlassian",
+      "logo": "bitbucket",
       "path": "packages/bitbucket",
       "toolCount": 265,
       "requestOnlyCount": 3,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 268
     },
     {
       "id": "confluence-v1",
       "name": "Confluence MCP (v1)",
       "tag": "api/app/confluence",
-      "logo": "atlassian",
+      "logo": "confluence",
       "path": "packages/confluence-v1",
       "toolCount": 121,
       "requestOnlyCount": 9,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 130
     },
     {
       "id": "confluence-v2",
       "name": "Confluence MCP (v2)",
       "tag": "api/app/confluence",
-      "logo": "atlassian",
+      "logo": "confluence",
       "path": "packages/confluence-v2",
       "toolCount": 218,
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 218
     },
     {
       "id": "csm",
       "name": "CSM MCP",
       "tag": "api/app/csm",
-      "logo": "atlassian",
+      "logo": "csm",
       "path": "packages/csm",
       "toolCount": 0,
       "requestOnlyCount": 60,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 60
     },
     {
       "id": "forms",
@@ -76,62 +82,68 @@
       "toolCount": 0,
       "requestOnlyCount": 34,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 34
     },
     {
       "id": "jsm",
       "name": "JSM MCP",
       "tag": "api/app/jsm",
-      "logo": "atlassian",
+      "logo": "jsm",
       "path": "packages/jsm",
       "toolCount": 73,
       "requestOnlyCount": 1,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 74
     },
     {
       "id": "jsm-ops",
       "name": "JSM Ops MCP",
       "tag": "api/app/jsm-ops",
-      "logo": "atlassian",
+      "logo": "jsm",
       "path": "packages/jsm-ops",
       "toolCount": 0,
       "requestOnlyCount": 240,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 240
     },
     {
       "id": "jsw",
       "name": "Jira Software MCP",
       "tag": "api/app/jira-software",
-      "logo": "atlassian",
+      "logo": "jira",
       "path": "packages/jsw",
       "toolCount": 61,
       "requestOnlyCount": 44,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 105
     },
     {
       "id": "jira-v3",
       "name": "Jira Cloud MCP",
       "tag": "api/app/jira",
-      "logo": "atlassian",
+      "logo": "jira",
       "path": "packages/jira-v3",
       "toolCount": 552,
       "requestOnlyCount": 43,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 595
     },
     {
       "id": "scim",
       "name": "SCIM MCP",
       "tag": "api/app/scim",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/scim",
       "toolCount": 0,
       "requestOnlyCount": 24,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 24
     },
     {
       "id": "trello",
@@ -140,62 +152,68 @@
       "logo": "trello",
       "path": "packages/trello",
       "toolCount": 0,
-      "requestOnlyCount": 261
+      "requestOnlyCount": 261,
+      "requestCount": 261
     },
     {
       "id": "admin-api-access",
       "name": "Admin API Access MCP",
       "tag": "api/app/admin",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/admin-api-access",
       "toolCount": 0,
       "requestOnlyCount": 21,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 21
     },
     {
       "id": "admin-control",
       "name": "Admin Control MCP",
       "tag": "api/app/admin",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/admin-control",
       "toolCount": 0,
       "requestOnlyCount": 22,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 22
     },
     {
       "id": "admin-dlp",
       "name": "Admin DLP MCP",
       "tag": "api/app/admin",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/admin-dlp",
       "toolCount": 0,
       "requestOnlyCount": 8,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 8
     },
     {
       "id": "admin-orgs",
       "name": "Admin Orgs MCP",
       "tag": "api/app/admin",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/admin-orgs",
       "toolCount": 0,
       "requestOnlyCount": 45,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 45
     },
     {
       "id": "admin-users",
       "name": "Admin Users MCP",
       "tag": "api/app/admin",
-      "logo": "atlassian",
+      "logo": "admin",
       "path": "packages/admin-users",
       "toolCount": 0,
       "requestOnlyCount": 10,
       "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md"
+      "serviceTemplate": "templates/atlassian-instance.md",
+      "requestCount": 10
     }
   ]
 }

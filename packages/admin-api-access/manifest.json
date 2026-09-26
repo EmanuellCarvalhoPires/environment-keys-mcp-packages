@@ -2,7 +2,7 @@
   "id": "admin-api-access",
   "name": "Admin API Access MCP",
   "tag": "api/app/admin",
-  "logo": "atlassian",
+  "logo": "admin",
   "index": "MCP - Admin API Access.md",
   "files": [
     {

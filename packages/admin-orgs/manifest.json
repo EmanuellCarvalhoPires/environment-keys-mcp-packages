@@ -2,7 +2,7 @@
   "id": "admin-orgs",
   "name": "Admin Orgs MCP",
   "tag": "api/app/admin",
-  "logo": "atlassian",
+  "logo": "admin",
   "index": "MCP - Admin Orgs.md",
   "files": [
     {

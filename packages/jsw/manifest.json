@@ -2,7 +2,7 @@
   "id": "jsw",
   "name": "Jira Software MCP",
   "tag": "api/app/jira-software",
-  "logo": "atlassian",
+  "logo": "jira",
   "index": "MCP - JSW.md",
   "files": [
     {

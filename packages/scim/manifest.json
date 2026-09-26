@@ -2,7 +2,7 @@
   "id": "scim",
   "name": "SCIM MCP",
   "tag": "api/app/scim",
-  "logo": "atlassian",
+  "logo": "admin",
   "index": "MCP - SCIM.md",
   "files": [
     {

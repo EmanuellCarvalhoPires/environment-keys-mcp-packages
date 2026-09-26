@@ -2,7 +2,7 @@
   "id": "confluence-v2",
   "name": "Confluence MCP (v2)",
   "tag": "api/app/confluence",
-  "logo": "atlassian",
+  "logo": "confluence",
   "index": "MCP - Confluence v2.md",
   "files": [
     {

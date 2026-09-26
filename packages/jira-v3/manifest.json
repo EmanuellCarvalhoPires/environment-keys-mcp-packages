@@ -2,7 +2,7 @@
   "id": "jira-v3",
   "name": "Jira Cloud MCP",
   "tag": "api/app/jira",
-  "logo": "atlassian",
+  "logo": "jira",
   "index": "MCP - Jira v3.md",
   "files": [
     {

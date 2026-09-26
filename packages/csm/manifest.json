@@ -2,7 +2,7 @@
   "id": "csm",
   "name": "CSM MCP",
   "tag": "api/app/csm",
-  "logo": "atlassian",
+  "logo": "csm",
   "index": "MCP - CSM.md",
   "files": [
     {

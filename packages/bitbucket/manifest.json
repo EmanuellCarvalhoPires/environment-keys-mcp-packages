@@ -2,7 +2,7 @@
   "id": "bitbucket",
   "name": "Bitbucket MCP",
   "tag": "api/app/bitbucket",
-  "logo": "atlassian",
+  "logo": "bitbucket",
   "index": "MCP - Bitbucket.md",
   "files": [
     {
