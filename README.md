@@ -8,6 +8,7 @@ None of these notes hold credentials: values (URLs, tokens) are filled in at cal
 
 ## Layout
 
-- `manifest.json` — the catalog: id, name, tag and logo of every package.
+- `manifest.json` — the catalog: id, name, tag and logo of every package, plus (when the package's tools pick an instance through a `service_tag`) the `serviceTag` and the path of that service's `serviceTemplate` note.
 - `packages/<id>/manifest.json` — every file in the package, tagged `index`, `tool` or `request`. Each `tool` entry names its paired `request` file.
 - `packages/<id>/**/*.md` — the notes themselves, ready to be copied into a vault as-is.
+- `templates/*.md` — one service-note template per `serviceTag` (e.g. `atlassian-instance.md` for `atlassian/instance`), shared by every package that uses it. The plugin downloads it once, into an "Instances" folder, the first time a package needs that service and none exists yet in the vault.

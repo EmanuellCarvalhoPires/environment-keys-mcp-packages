@@ -8,7 +8,9 @@
       "logo": "assets",
       "path": "packages/jsm-assets",
       "toolCount": 60,
-      "requestOnlyCount": 1
+      "requestOnlyCount": 1,
+      "serviceTag": "atlassian/instance",
+      "serviceTemplate": "templates/atlassian-instance.md"
     }
   ]
 }
