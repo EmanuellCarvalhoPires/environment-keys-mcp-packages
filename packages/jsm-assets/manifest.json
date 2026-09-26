@@ -1,0 +1,737 @@
+{
+  "id": "jsm-assets",
+  "name": "JSM Assets MCP",
+  "tag": "api/app/assets",
+  "logo": "assets",
+  "index": "MCP - Assets.md",
+  "files": [
+    {
+      "path": "MCP - Assets.md",
+      "kind": "index"
+    },
+    {
+      "path": "Tools/assets_create_import_schedule.md",
+      "kind": "tool",
+      "name": "assets_create_import_schedule",
+      "title": "Assets - Create import schedule",
+      "writes": true,
+      "pair": "Requests/Assets - Create import schedule.md"
+    },
+    {
+      "path": "Tools/assets_delete_config_statustype.md",
+      "kind": "tool",
+      "name": "assets_delete_config_statustype",
+      "title": "Assets - DELETE config statustype {id}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE config statustype {id}.md"
+    },
+    {
+      "path": "Tools/assets_delete_import_schedule.md",
+      "kind": "tool",
+      "name": "assets_delete_import_schedule",
+      "title": "Assets - Delete import schedule",
+      "writes": true,
+      "pair": "Requests/Assets - Delete import schedule.md"
+    },
+    {
+      "path": "Tools/assets_delete_importsource_executions.md",
+      "kind": "tool",
+      "name": "assets_delete_importsource_executions",
+      "title": "Assets - DELETE importsource {importSourceId} executions {importExecutionId}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE importsource {importSourceId} executions {importExecutionId}.md"
+    },
+    {
+      "path": "Tools/assets_delete_object.md",
+      "kind": "tool",
+      "name": "assets_delete_object",
+      "title": "Assets - DELETE object {id}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE object {id}.md"
+    },
+    {
+      "path": "Tools/assets_delete_objectschema.md",
+      "kind": "tool",
+      "name": "assets_delete_objectschema",
+      "title": "Assets - DELETE objectschema {id}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE objectschema {id}.md"
+    },
+    {
+      "path": "Tools/assets_delete_objecttype.md",
+      "kind": "tool",
+      "name": "assets_delete_objecttype",
+      "title": "Assets - DELETE objecttype {id}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE objecttype {id}.md"
+    },
+    {
+      "path": "Tools/assets_delete_objecttypeattribute.md",
+      "kind": "tool",
+      "name": "assets_delete_objecttypeattribute",
+      "title": "Assets - DELETE objecttypeattribute {id}",
+      "writes": true,
+      "pair": "Requests/Assets - DELETE objecttypeattribute {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_config_referencetype.md",
+      "kind": "tool",
+      "name": "assets_get_config_referencetype",
+      "title": "Assets - GET config referencetype",
+      "writes": false,
+      "pair": "Requests/Assets - GET config referencetype.md"
+    },
+    {
+      "path": "Tools/assets_get_config_statustype.md",
+      "kind": "tool",
+      "name": "assets_get_config_statustype",
+      "title": "Assets - GET config statustype",
+      "writes": false,
+      "pair": "Requests/Assets - GET config statustype.md"
+    },
+    {
+      "path": "Tools/assets_get_config_statustype_get.md",
+      "kind": "tool",
+      "name": "assets_get_config_statustype_get",
+      "title": "Assets - GET config statustype {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET config statustype {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_icon.md",
+      "kind": "tool",
+      "name": "assets_get_icon",
+      "title": "Assets - GET icon {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET icon {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_icon_global.md",
+      "kind": "tool",
+      "name": "assets_get_icon_global",
+      "title": "Assets - GET icon global",
+      "writes": false,
+      "pair": "Requests/Assets - GET icon global.md"
+    },
+    {
+      "path": "Tools/assets_get_import_schedule.md",
+      "kind": "tool",
+      "name": "assets_get_import_schedule",
+      "title": "Assets - Get import schedule",
+      "writes": false,
+      "pair": "Requests/Assets - Get import schedule.md"
+    },
+    {
+      "path": "Tools/assets_get_import_source_by_id.md",
+      "kind": "tool",
+      "name": "assets_get_import_source_by_id",
+      "title": "Assets - Get import source by ID",
+      "writes": false,
+      "pair": "Requests/Assets - Get import source by ID.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_configstatus.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_configstatus",
+      "title": "Assets - GET importsource {importSourceId} configstatus",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} configstatus.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_executions_status.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_executions_status",
+      "title": "Assets - GET importsource {importSourceId} executions {importExecutionId} status",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} executions {importExecutionId} status.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_executions_status_get.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_executions_status_get",
+      "title": "Assets - GET importsource {importSourceId} executions status",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} executions status.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_mapping_progress.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_mapping_progress",
+      "title": "Assets - GET importsource {importSourceId} mapping progress {resourceId}",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} mapping progress {resourceId}.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_schedule.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_schedule",
+      "title": "Assets - GET importsource {importSourceId} schedule",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} schedule.md"
+    },
+    {
+      "path": "Tools/assets_get_importsource_schema_and_mapping.md",
+      "kind": "tool",
+      "name": "assets_get_importsource_schema_and_mapping",
+      "title": "Assets - GET importsource {importSourceId} schema-and-mapping",
+      "writes": false,
+      "pair": "Requests/Assets - GET importsource {importSourceId} schema-and-mapping.md"
+    },
+    {
+      "path": "Tools/assets_get_object.md",
+      "kind": "tool",
+      "name": "assets_get_object",
+      "title": "Assets - GET object {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET object {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_object_attributes.md",
+      "kind": "tool",
+      "name": "assets_get_object_attributes",
+      "title": "Assets - GET object {id} attributes",
+      "writes": false,
+      "pair": "Requests/Assets - GET object {id} attributes.md"
+    },
+    {
+      "path": "Tools/assets_get_object_history.md",
+      "kind": "tool",
+      "name": "assets_get_object_history",
+      "title": "Assets - GET object {id} history",
+      "writes": false,
+      "pair": "Requests/Assets - GET object {id} history.md"
+    },
+    {
+      "path": "Tools/assets_get_object_referenceinfo.md",
+      "kind": "tool",
+      "name": "assets_get_object_referenceinfo",
+      "title": "Assets - GET object {id} referenceinfo",
+      "writes": false,
+      "pair": "Requests/Assets - GET object {id} referenceinfo.md"
+    },
+    {
+      "path": "Tools/assets_get_objectconnectedtickets_tickets.md",
+      "kind": "tool",
+      "name": "assets_get_objectconnectedtickets_tickets",
+      "title": "Assets - GET objectconnectedtickets {objectId} tickets",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectconnectedtickets {objectId} tickets.md"
+    },
+    {
+      "path": "Tools/assets_get_objectschema.md",
+      "kind": "tool",
+      "name": "assets_get_objectschema",
+      "title": "Assets - GET objectschema {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectschema {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_objectschema_attributes.md",
+      "kind": "tool",
+      "name": "assets_get_objectschema_attributes",
+      "title": "Assets - GET objectschema {id} attributes",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectschema {id} attributes.md"
+    },
+    {
+      "path": "Tools/assets_get_objectschema_list.md",
+      "kind": "tool",
+      "name": "assets_get_objectschema_list",
+      "title": "Assets - GET objectschema list",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectschema list.md"
+    },
+    {
+      "path": "Tools/assets_get_objectschema_objecttypes.md",
+      "kind": "tool",
+      "name": "assets_get_objectschema_objecttypes",
+      "title": "Assets - GET objectschema {id} objecttypes",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectschema {id} objecttypes.md"
+    },
+    {
+      "path": "Tools/assets_get_objectschema_objecttypes_flat.md",
+      "kind": "tool",
+      "name": "assets_get_objectschema_objecttypes_flat",
+      "title": "Assets - GET objectschema {id} objecttypes flat",
+      "writes": false,
+      "pair": "Requests/Assets - GET objectschema {id} objecttypes flat.md"
+    },
+    {
+      "path": "Tools/assets_get_objecttype.md",
+      "kind": "tool",
+      "name": "assets_get_objecttype",
+      "title": "Assets - GET objecttype {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET objecttype {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_objecttype_attributes.md",
+      "kind": "tool",
+      "name": "assets_get_objecttype_attributes",
+      "title": "Assets - GET objecttype {id} attributes",
+      "writes": false,
+      "pair": "Requests/Assets - GET objecttype {id} attributes.md"
+    },
+    {
+      "path": "Tools/assets_get_progress_category_imports.md",
+      "kind": "tool",
+      "name": "assets_get_progress_category_imports",
+      "title": "Assets - GET progress category imports {id}",
+      "writes": false,
+      "pair": "Requests/Assets - GET progress category imports {id}.md"
+    },
+    {
+      "path": "Tools/assets_get_tenant_usage_information.md",
+      "kind": "tool",
+      "name": "assets_get_tenant_usage_information",
+      "title": "Assets - Get tenant usage information",
+      "writes": false,
+      "pair": "Requests/Assets - Get tenant usage information.md"
+    },
+    {
+      "path": "Tools/assets_patch_importsource_mapping.md",
+      "kind": "tool",
+      "name": "assets_patch_importsource_mapping",
+      "title": "Assets - PATCH importsource {importSourceId} mapping",
+      "writes": true,
+      "pair": "Requests/Assets - PATCH importsource {importSourceId} mapping.md"
+    },
+    {
+      "path": "Tools/assets_post_config_referencetype.md",
+      "kind": "tool",
+      "name": "assets_post_config_referencetype",
+      "title": "Assets - POST config referencetype",
+      "writes": true,
+      "pair": "Requests/Assets - POST config referencetype.md"
+    },
+    {
+      "path": "Tools/assets_post_config_statustype.md",
+      "kind": "tool",
+      "name": "assets_post_config_statustype",
+      "title": "Assets - POST config statustype",
+      "writes": true,
+      "pair": "Requests/Assets - POST config statustype.md"
+    },
+    {
+      "path": "Tools/assets_post_global_config_objectschema_property.md",
+      "kind": "tool",
+      "name": "assets_post_global_config_objectschema_property",
+      "title": "Assets - POST global config objectschema {id} property",
+      "writes": true,
+      "pair": "Requests/Assets - POST global config objectschema {id} property.md"
+    },
+    {
+      "path": "Tools/assets_post_import_start.md",
+      "kind": "tool",
+      "name": "assets_post_import_start",
+      "title": "Assets - POST import start {id}",
+      "writes": true,
+      "pair": "Requests/Assets - POST import start {id}.md"
+    },
+    {
+      "path": "Tools/assets_post_importsource_executions.md",
+      "kind": "tool",
+      "name": "assets_post_importsource_executions",
+      "title": "Assets - POST importsource {importSourceId} executions",
+      "writes": true,
+      "pair": "Requests/Assets - POST importsource {importSourceId} executions.md"
+    },
+    {
+      "path": "Tools/assets_post_importsource_executions_data.md",
+      "kind": "tool",
+      "name": "assets_post_importsource_executions_data",
+      "title": "Assets - POST importsource {importSourceId} executions {importExecutionId} data",
+      "writes": true,
+      "pair": "Requests/Assets - POST importsource {importSourceId} executions {importExecutionId} data.md"
+    },
+    {
+      "path": "Tools/assets_post_importsource_executions_history_failed.md",
+      "kind": "tool",
+      "name": "assets_post_importsource_executions_history_failed",
+      "title": "Assets - POST importsource {importSourceId} executions {executionId} history failed",
+      "writes": true,
+      "pair": "Requests/Assets - POST importsource {importSourceId} executions {executionId} history failed.md"
+    },
+    {
+      "path": "Tools/assets_post_importsource_token.md",
+      "kind": "tool",
+      "name": "assets_post_importsource_token",
+      "title": "Assets - POST importsource {importSourceId} token",
+      "writes": true,
+      "pair": "Requests/Assets - POST importsource {importSourceId} token.md"
+    },
+    {
+      "path": "Tools/assets_post_object_aql.md",
+      "kind": "tool",
+      "name": "assets_post_object_aql",
+      "title": "Assets - POST object aql",
+      "writes": false,
+      "pair": "Requests/Assets - POST object aql.md"
+    },
+    {
+      "path": "Tools/assets_post_object_aql_totalcount.md",
+      "kind": "tool",
+      "name": "assets_post_object_aql_totalcount",
+      "title": "Assets - POST object aql totalcount",
+      "writes": false,
+      "pair": "Requests/Assets - POST object aql totalcount.md"
+    },
+    {
+      "path": "Tools/assets_post_object_create.md",
+      "kind": "tool",
+      "name": "assets_post_object_create",
+      "title": "Assets - POST object create",
+      "writes": true,
+      "pair": "Requests/Assets - POST object create.md"
+    },
+    {
+      "path": "Tools/assets_post_object_navlist_aql.md",
+      "kind": "tool",
+      "name": "assets_post_object_navlist_aql",
+      "title": "Assets - POST object navlist aql",
+      "writes": false,
+      "pair": "Requests/Assets - POST object navlist aql.md"
+    },
+    {
+      "path": "Tools/assets_post_objectschema_create.md",
+      "kind": "tool",
+      "name": "assets_post_objectschema_create",
+      "title": "Assets - POST objectschema create",
+      "writes": true,
+      "pair": "Requests/Assets - POST objectschema create.md"
+    },
+    {
+      "path": "Tools/assets_post_objecttype_create.md",
+      "kind": "tool",
+      "name": "assets_post_objecttype_create",
+      "title": "Assets - POST objecttype create",
+      "writes": true,
+      "pair": "Requests/Assets - POST objecttype create.md"
+    },
+    {
+      "path": "Tools/assets_post_objecttype_position.md",
+      "kind": "tool",
+      "name": "assets_post_objecttype_position",
+      "title": "Assets - POST objecttype {id} position",
+      "writes": true,
+      "pair": "Requests/Assets - POST objecttype {id} position.md"
+    },
+    {
+      "path": "Tools/assets_post_objecttypeattribute.md",
+      "kind": "tool",
+      "name": "assets_post_objecttypeattribute",
+      "title": "Assets - POST objecttypeattribute {objectTypeId}",
+      "writes": true,
+      "pair": "Requests/Assets - POST objecttypeattribute {objectTypeId}.md"
+    },
+    {
+      "path": "Tools/assets_update_config_statustype.md",
+      "kind": "tool",
+      "name": "assets_update_config_statustype",
+      "title": "Assets - PUT config statustype {id}",
+      "writes": true,
+      "pair": "Requests/Assets - PUT config statustype {id}.md"
+    },
+    {
+      "path": "Tools/assets_update_import_schedule.md",
+      "kind": "tool",
+      "name": "assets_update_import_schedule",
+      "title": "Assets - Update import schedule",
+      "writes": true,
+      "pair": "Requests/Assets - Update import schedule.md"
+    },
+    {
+      "path": "Tools/assets_update_importsource_executions_progress.md",
+      "kind": "tool",
+      "name": "assets_update_importsource_executions_progress",
+      "title": "Assets - PUT importsource {importSourceId} executions {importExecutionId} progress",
+      "writes": true,
+      "pair": "Requests/Assets - PUT importsource {importSourceId} executions {importExecutionId} progress.md"
+    },
+    {
+      "path": "Tools/assets_update_importsource_mapping.md",
+      "kind": "tool",
+      "name": "assets_update_importsource_mapping",
+      "title": "Assets - PUT importsource {importSourceId} mapping",
+      "writes": true,
+      "pair": "Requests/Assets - PUT importsource {importSourceId} mapping.md"
+    },
+    {
+      "path": "Tools/assets_update_object.md",
+      "kind": "tool",
+      "name": "assets_update_object",
+      "title": "Assets - PUT object {id}",
+      "writes": true,
+      "pair": "Requests/Assets - PUT object {id}.md"
+    },
+    {
+      "path": "Tools/assets_update_objectschema.md",
+      "kind": "tool",
+      "name": "assets_update_objectschema",
+      "title": "Assets - PUT objectschema {id}",
+      "writes": true,
+      "pair": "Requests/Assets - PUT objectschema {id}.md"
+    },
+    {
+      "path": "Tools/assets_update_objecttype.md",
+      "kind": "tool",
+      "name": "assets_update_objecttype",
+      "title": "Assets - PUT objecttype {id}",
+      "writes": true,
+      "pair": "Requests/Assets - PUT objecttype {id}.md"
+    },
+    {
+      "path": "Tools/assets_update_objecttypeattribute.md",
+      "kind": "tool",
+      "name": "assets_update_objecttypeattribute",
+      "title": "Assets - PUT objecttypeattribute {objectTypeId} {id}",
+      "writes": true,
+      "pair": "Requests/Assets - PUT objecttypeattribute {objectTypeId} {id}.md"
+    },
+    {
+      "path": "Requests/Assets - Create import schedule.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE config statustype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE importsource {importSourceId} executions {importExecutionId}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE object {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE objectschema {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE objecttype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - DELETE objecttypeattribute {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - Delete import schedule.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET config referencetype.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET config statustype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET config statustype.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET icon global.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET icon {id} icon.png.md",
+      "kind": "request-only"
+    },
+    {
+      "path": "Requests/Assets - GET icon {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} configstatus.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} executions status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} executions {importExecutionId} status.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} mapping progress {resourceId}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} schedule.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET importsource {importSourceId} schema-and-mapping.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET object {id} attributes.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET object {id} history.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET object {id} referenceinfo.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET object {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectconnectedtickets {objectId} tickets.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectschema list.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectschema {id} attributes.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectschema {id} objecttypes flat.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectschema {id} objecttypes.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objectschema {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objecttype {id} attributes.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET objecttype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - GET progress category imports {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - Get import schedule.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - Get import source by ID.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - Get tenant usage information.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PATCH importsource {importSourceId} mapping.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST config referencetype.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST config statustype.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST global config objectschema {id} property.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST import start {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST importsource {importSourceId} executions {executionId} history failed.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST importsource {importSourceId} executions {importExecutionId} data.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST importsource {importSourceId} executions.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST importsource {importSourceId} token.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST object aql totalcount.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST object aql.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST object create.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST object navlist aql.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST objectschema create.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST objecttype create.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST objecttype {id} position.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - POST objecttypeattribute {objectTypeId}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT config statustype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT importsource {importSourceId} executions {importExecutionId} progress.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT importsource {importSourceId} mapping.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT object {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT objectschema {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT objecttype {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - PUT objecttypeattribute {objectTypeId} {id}.md",
+      "kind": "request"
+    },
+    {
+      "path": "Requests/Assets - Update import schedule.md",
+      "kind": "request"
+    }
+  ]
+}

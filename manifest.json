@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "packages": [
+    {
+      "id": "jsm-assets",
+      "name": "JSM Assets MCP",
+      "tag": "api/app/assets",
+      "logo": "assets",
+      "path": "packages/jsm-assets",
+      "toolCount": 60,
+      "requestOnlyCount": 1
+    }
+  ]
+}
