@@ -1,8 +1,8 @@
 {
   "id": "forms",
-  "name": "Forms",
+  "name": "Jira Service Management",
   "tag": "api/app/forms",
-  "logo": "atlassian",
+  "logo": "jsm",
   "index": "MCP - Forms.md",
   "files": [
     {

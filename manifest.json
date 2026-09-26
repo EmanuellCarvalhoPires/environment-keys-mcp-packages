@@ -15,9 +15,9 @@
     },
     {
       "id": "automation",
-      "name": "Automation",
+      "name": "Automation For Jira",
       "tag": "api/app/automation",
-      "logo": "atlassian",
+      "logo": "automation",
       "path": "packages/automation",
       "toolCount": 15,
       "requestOnlyCount": 0,
@@ -77,19 +77,20 @@
     },
     {
       "id": "forms",
-      "name": "Forms",
+      "name": "Jira Service Management",
       "tag": "api/app/forms",
-      "logo": "atlassian",
+      "logo": "jsm",
       "path": "packages/forms",
       "toolCount": 0,
       "requestOnlyCount": 34,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 34
+      "requestCount": 34,
+      "groupId": "jsm"
     },
     {
       "id": "jsm",
-      "name": "JSM",
+      "name": "Jira Service Management",
       "tag": "api/app/jsm",
       "logo": "jsm",
       "path": "packages/jsm",
@@ -97,11 +98,12 @@
       "requestOnlyCount": 1,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 74
+      "requestCount": 74,
+      "groupId": "jsm"
     },
     {
       "id": "jsm-ops",
-      "name": "JSM Ops",
+      "name": "Jira Service Management",
       "tag": "api/app/jsm-ops",
       "logo": "jsm",
       "path": "packages/jsm-ops",
@@ -109,7 +111,8 @@
       "requestOnlyCount": 240,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 240
+      "requestCount": 240,
+      "groupId": "jsm"
     },
     {
       "id": "jsw",

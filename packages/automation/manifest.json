@@ -1,8 +1,8 @@
 {
   "id": "automation",
-  "name": "Automation",
+  "name": "Automation For Jira",
   "tag": "api/app/automation",
-  "logo": "atlassian",
+  "logo": "automation",
   "index": "MCP - Automation.md",
   "files": [
     {
