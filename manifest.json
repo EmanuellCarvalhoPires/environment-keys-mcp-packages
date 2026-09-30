@@ -19,7 +19,7 @@
       "tag": "api/app/automation",
       "logo": "automation",
       "path": "packages/automation",
-      "toolCount": 15,
+      "toolCount": 17,
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",

@@ -42,6 +42,14 @@
       "pair": "Requests/Automation - Enable or disable a rule.md"
     },
     {
+      "path": "Tools/automation_find_rules.md",
+      "kind": "tool",
+      "name": "automation_find_rules",
+      "title": "Automation - Find rules (filtered)",
+      "writes": false,
+      "pair": "Requests/Automation - List rule summaries.md"
+    },
+    {
       "path": "Tools/automation_get_a_rule_by_uuid.md",
       "kind": "tool",
       "name": "automation_get_a_rule_by_uuid",
@@ -112,6 +120,17 @@
       "title": "Automation - Search for templates (POST)",
       "writes": false,
       "pair": "Requests/Automation - Search for templates (POST).md"
+    },
+    {
+      "path": "Tools/automation_search_rule_config.md",
+      "kind": "tool",
+      "name": "automation_search_rule_config",
+      "title": "Automation - Search rule configuration",
+      "writes": false,
+      "pair": "Requests/Automation - Get a rule by UUID.md",
+      "pairs": [
+        "Requests/Automation - List rule summaries.md"
+      ]
     },
     {
       "path": "Tools/automation_update_an_existing_rule.md",

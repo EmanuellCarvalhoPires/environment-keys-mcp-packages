@@ -7,7 +7,7 @@ up: "[[MCP Tools]]"
 ---
 # MCP - Automation
 
-- **Tools:** 15 (exposed: 4; the others via `run_vault_tool`)
+- **Tools:** 17 (exposed: 6; the others via `run_vault_tool`)
 - **Requests only:** 0
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/automation/rest/
@@ -22,6 +22,8 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 
 ## Rule management
 
+- [[automation_find_rules]] — script over `GET /rest/v1/rule/summary` — Find rules by project, global or project-type scope, state, name and label (compact result, internal pagination) ⭐
+- [[automation_search_rule_config]] — script over `GET /rest/v1/rule/{ruleUuid}` — Find rules whose configuration contains a text (field, smart value, action) ⭐
 - [[automation_list_rule_summaries]] — `GET /rest/v1/rule/summary` — List rule summaries ⭐
 - [[automation_search_for_rule_summaries]] — `POST /rest/v1/rule/summary` — Search for rule summaries
 - [[automation_create_a_new_rule]] — `POST /rest/v1/rule` — Create a new rule ✏️
