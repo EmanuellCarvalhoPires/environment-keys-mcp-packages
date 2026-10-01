@@ -33,8 +33,8 @@
       "path": "packages/bitbucket",
       "toolCount": 265,
       "requestOnlyCount": 3,
-      "serviceTag": "atlassian/instance",
-      "serviceTemplate": "templates/atlassian-instance.md",
+      "serviceTag": "bitbucket/workspace",
+      "serviceTemplate": "templates/bitbucket-workspace.md",
       "requestCount": 268
     },
     {
@@ -158,6 +158,8 @@
       "path": "packages/trello",
       "toolCount": 0,
       "requestOnlyCount": 261,
+      "serviceTag": "trello/account",
+      "serviceTemplate": "templates/trello-account.md",
       "requestCount": 261
     },
     {
