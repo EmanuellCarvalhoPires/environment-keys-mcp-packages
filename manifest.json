@@ -11,7 +11,8 @@
       "requestOnlyCount": 1,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 61
+      "requestCount": 61,
+      "database": "mcp.db"
     },
     {
       "id": "automation",
@@ -23,7 +24,8 @@
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 15
+      "requestCount": 15,
+      "database": "mcp.db"
     },
     {
       "id": "bitbucket",
@@ -35,7 +37,8 @@
       "requestOnlyCount": 3,
       "serviceTag": "bitbucket/workspace",
       "serviceTemplate": "templates/bitbucket-workspace.md",
-      "requestCount": 268
+      "requestCount": 268,
+      "database": "mcp.db"
     },
     {
       "id": "confluence-v1",
@@ -48,7 +51,8 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 130,
-      "groupId": "confluence"
+      "groupId": "confluence",
+      "database": "mcp.db"
     },
     {
       "id": "confluence-v2",
@@ -61,7 +65,8 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 218,
-      "groupId": "confluence"
+      "groupId": "confluence",
+      "database": "mcp.db"
     },
     {
       "id": "csm",
@@ -73,7 +78,8 @@
       "requestOnlyCount": 60,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 60
+      "requestCount": 60,
+      "database": "mcp.db"
     },
     {
       "id": "forms",
@@ -86,7 +92,8 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 34,
-      "groupId": "jsm"
+      "groupId": "jsm",
+      "database": "mcp.db"
     },
     {
       "id": "jsm",
@@ -99,7 +106,8 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 74,
-      "groupId": "jsm"
+      "groupId": "jsm",
+      "database": "mcp.db"
     },
     {
       "id": "jsm-ops",
@@ -112,7 +120,8 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 240,
-      "groupId": "jsm"
+      "groupId": "jsm",
+      "database": "mcp.db"
     },
     {
       "id": "jsw",
@@ -124,7 +133,8 @@
       "requestOnlyCount": 44,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 105
+      "requestCount": 105,
+      "database": "mcp.db"
     },
     {
       "id": "jira-v3",
@@ -136,7 +146,8 @@
       "requestOnlyCount": 43,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 595
+      "requestCount": 595,
+      "database": "mcp.db"
     },
     {
       "id": "scim",
@@ -148,7 +159,8 @@
       "requestOnlyCount": 24,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 24
+      "requestCount": 24,
+      "database": "mcp.db"
     },
     {
       "id": "trello",
@@ -160,7 +172,8 @@
       "requestOnlyCount": 261,
       "serviceTag": "trello/account",
       "serviceTemplate": "templates/trello-account.md",
-      "requestCount": 261
+      "requestCount": 261,
+      "database": "mcp.db"
     },
     {
       "id": "admin-api-access",
@@ -172,7 +185,8 @@
       "requestOnlyCount": 21,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 21
+      "requestCount": 21,
+      "database": "mcp.db"
     },
     {
       "id": "admin-control",
@@ -184,7 +198,8 @@
       "requestOnlyCount": 22,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 22
+      "requestCount": 22,
+      "database": "mcp.db"
     },
     {
       "id": "admin-dlp",
@@ -196,7 +211,8 @@
       "requestOnlyCount": 8,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 8
+      "requestCount": 8,
+      "database": "mcp.db"
     },
     {
       "id": "admin-orgs",
@@ -208,7 +224,8 @@
       "requestOnlyCount": 45,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 45
+      "requestCount": 45,
+      "database": "mcp.db"
     },
     {
       "id": "admin-users",
@@ -220,7 +237,8 @@
       "requestOnlyCount": 10,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 10
+      "requestCount": 10,
+      "database": "mcp.db"
     }
   ]
 }

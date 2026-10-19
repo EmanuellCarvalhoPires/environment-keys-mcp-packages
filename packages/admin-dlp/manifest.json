@@ -4,42 +4,17 @@
   "tag": "api/app/admin",
   "logo": "admin",
   "index": "MCP - Admin DLP.md",
+  "database": "mcp.db",
+  "toolCount": 0,
+  "requestCount": 8,
   "files": [
     {
       "path": "MCP - Admin DLP.md",
       "kind": "index"
     },
     {
-      "path": "Requests/Admin DLP - Archive a data classification level.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Create a new classification level.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Edit a classification level.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Get a classification level.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Get all classification levels by orgId.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Publish classification level(s).md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Reorder classification levels.md",
-      "kind": "request-only"
-    },
-    {
-      "path": "Requests/Admin DLP - Restore a classification level.md",
-      "kind": "request-only"
+      "path": "mcp.db",
+      "kind": "database"
     }
   ]
 }
