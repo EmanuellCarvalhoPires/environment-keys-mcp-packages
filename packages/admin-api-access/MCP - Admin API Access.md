@@ -31,10 +31,10 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 ## OAuth Client
 
 - **Admin API Access - Get all OAuth clients in an org** — `GET /orgs/{orgId}/oauth-clients` — Get all OAuth clients in an org
-- **Admin API Access - Create an OAuth client** — `POST /orgs/{orgId}/oauth-clients` — Create an OAuth client ✏️
 - **Admin API Access - Get OAuth client count in an org** — `POST /orgs/{orgId}/oauth-clients/count` — Get OAuth client count in an org
 - **Admin API Access - Get an OAuth client** — `GET /orgs/{orgId}/oauth-clients/{clientId}` — Get an OAuth client
 - **Admin API Access - Delete an OAuth client** — `DELETE /orgs/{orgId}/oauth-clients/{clientId}` — Delete an OAuth client ✏️
+- **Admin API Access - Update an OAuth client** — `PATCH /orgs/{orgId}/oauth-clients/{clientId}` — Update an OAuth client ✏️
 
 ## Service Account
 

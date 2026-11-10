@@ -8,7 +8,7 @@ up: "[[MCP Tools]]"
 # MCP - Admin Orgs
 
 - **Tools:** 0 (exposed: 0; the others via `run_vault_tool`)
-- **Requests only:** 45
+- **Requests only:** 51
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/admin/organization/rest/
 
@@ -54,6 +54,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - **Admin Orgs - Get the count of groups in an organization** — `GET /v2/orgs/{orgId}/directories/{directoryId}/groups/count` — Get the count of groups in an organization
 - **Admin Orgs - Get group stats** — `GET /v2/orgs/{orgId}/directories/{directoryId}/groups/stats` — Get group stats
 - **Admin Orgs - Create group** — `POST /v2/orgs/{orgId}/directories/{directoryId}/groups` — Create group ✏️
+- **Admin Orgs - Update group** — `PUT /v2/orgs/{orgId}/directories/{directoryId}/groups/{groupId}` — Update group ✏️
 
 ## Domains
 
@@ -82,3 +83,11 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 ## Workspaces
 
 - **Admin Orgs - Get list of workspaces** — `POST /v2/orgs/{orgId}/workspaces` — Get list of workspaces
+
+## Units
+
+- **Admin Orgs - Get units in organization** — `GET /v1/orgs/{orgId}/units` — Get units in organization
+- **Admin Orgs - Create a unit** — `POST /v1/orgs/{orgId}/units` — Create a unit ✏️
+- **Admin Orgs - Get async unit job status** — `GET /v1/orgs/{orgId}/units/jobs/{jobId}` — Get async unit job status
+- **Admin Orgs - Get unit** — `GET /v1/orgs/{orgId}/units/{unitId}` — Get unit
+- **Admin Orgs - Update a Unit** — `PATCH /v1/orgs/{orgId}/units/{unitId}` — Update a Unit ✏️

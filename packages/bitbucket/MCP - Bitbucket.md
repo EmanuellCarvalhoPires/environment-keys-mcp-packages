@@ -7,7 +7,7 @@ up: "[[MCP Tools]]"
 ---
 # MCP - Bitbucket
 
-- **Tools:** 265 (exposed: 7; the others via `run_vault_tool`)
+- **Tools:** 272 (exposed: 7; the others via `run_vault_tool`)
 - **Requests only:** 3
 - **Instance:** `instance` parameter — notes tagged `bitbucket/workspace`
 - **Official documentation:** https://developer.atlassian.com/cloud/bitbucket/rest/
@@ -217,6 +217,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `bitbucket_get_a_task_on_a_pull_request` — `GET /repositories/{workspace}/{repo_slug}/pullrequests/{pull_request_id}/tasks/{task_id}` — Get a task on a pull request
 - `bitbucket_update_a_task_on_a_pull_request` — `PUT /repositories/{workspace}/{repo_slug}/pullrequests/{pull_request_id}/tasks/{task_id}` — Update a task on a pull request ✏️
 - `bitbucket_delete_a_task_on_a_pull_request` — `DELETE /repositories/{workspace}/{repo_slug}/pullrequests/{pull_request_id}/tasks/{task_id}` — Delete a task on a pull request ✏️
+- `bitbucket_list_pull_request_mergeability_checks` — `GET /repositories/{workspace}/{repo_slug}/pullrequests/{pull_request_id}/mergeability/checks` — List pull request mergeability checks
 
 ## Refs
 
@@ -341,3 +342,12 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `bitbucket_list_projects_in_a_workspace` — `GET /workspaces/{workspace}/projects` — List projects in a workspace
 - `bitbucket_list_workspace_pull_requests_for_a_user` — `GET /workspaces/{workspace}/pullrequests/{selected_user}` — List workspace pull requests for a user
 - `bitbucket_get_the_workspace_system_gpg_public_key_s` — `GET /workspaces/{workspace}/settings/gpg/public-key` — Get the workspace system GPG public key(s)
+- `bitbucket_search_code_in_a_workspace` — `POST /workspaces/{workspace}/codesearch` — Search code in a workspace ✏️
+
+## Merge queues
+
+- `bitbucket_list_merge_queues` — `GET /repositories/{workspace}/{repo_slug}/merge-queues` — List merge queues
+- `bitbucket_get_a_merge_queue` — `GET /repositories/{workspace}/{repo_slug}/merge-queues/{merge_queue_uuid}` — Get a merge queue
+- `bitbucket_list_pullrequests_in_a_merge_queue` — `GET /repositories/{workspace}/{repo_slug}/merge-queues/{merge_queue_uuid}/queue` — List pullrequests in a merge queue
+- `bitbucket_get_a_pullrequest_in_a_merge_queue` — `GET /repositories/{workspace}/{repo_slug}/merge-queues/{merge_queue_uuid}/queue/{pullrequest_id}` — Get a pullrequest in a merge queue
+- `bitbucket_remove_a_pullrequest_from_a_merge_queue` — `DELETE /repositories/{workspace}/{repo_slug}/merge-queues/{merge_queue_uuid}/queue/{pullrequest_id}` — Remove a pullrequest from a merge queue ✏️

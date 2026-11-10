@@ -35,10 +35,10 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 ## Schemas
 
 - **SCIM - Get all schemas** — `GET /scim/directory/{directoryId}/Schemas` — Get all schemas
-- **SCIM - Get user schemas** — `GET /scim/directory/{directoryId}/Schemas/urn{ietf}{params}{scim}{schemas}{core}:2.0{User}` — Get user schemas
-- **SCIM - Get group schemas** — `GET /scim/directory/{directoryId}/Schemas/urn{ietf}{params}{scim}{schemas}{core}:2.0{Group}` — Get group schemas
-- **SCIM - Get user enterprise extension schemas** — `GET /scim/directory/{directoryId}/Schemas/urn{ietf}{params}{scim}{schemas}{extension}{enterprise}:2.0{User}` — Get user enterprise extension schemas
 - **SCIM - Get feature metadata** — `GET /scim/directory/{directoryId}/ServiceProviderConfig` — Get feature metadata
+- **SCIM - Get user schemas** — `GET /scim/directory/{directoryId}/Schemas/urn:ietf:params:scim:schemas:core:2.0:User` — Get user schemas
+- **SCIM - Get group schemas** — `GET /scim/directory/{directoryId}/Schemas/urn:ietf:params:scim:schemas:core:2.0:Group` — Get group schemas
+- **SCIM - Get user enterprise extension schemas** — `GET /scim/directory/{directoryId}/Schemas/urn:ietf:params:scim:schemas:extension:enterprise:2.0:User` — Get user enterprise extension schemas
 
 ## Service Provider Configuration
 

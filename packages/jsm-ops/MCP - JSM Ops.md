@@ -8,7 +8,7 @@ up: "[[MCP Tools]]"
 # MCP - JSM Ops
 
 - **Tools:** 0 (exposed: 0; the others via `run_vault_tool`)
-- **Requests only:** 240
+- **Requests only:** 245
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/jira/service-desk-ops/rest/v2/
 
@@ -46,6 +46,8 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - **JSM Ops - Add attachment to alert** — `POST /api/{cloudId}/v1/alerts/{alertId}/attachments` — Add attachment to alert ✏️📎
 - **JSM Ops - Get attachment download URL** — `GET /api/{cloudId}/v1/alerts/{alertId}/attachments/{id}` — Get attachment download URL
 - **JSM Ops - Delete attachment** — `DELETE /api/{cloudId}/v1/alerts/{alertId}/attachments/{id}` — Delete attachment ✏️
+- **JSM Ops - Add affected services to alert** — `POST /api/{cloudId}/v1/alerts/{id}/services` — Add affected services to alert ✏️
+- **JSM Ops - Remove affected services from alert** — `DELETE /api/{cloudId}/v1/alerts/{id}/services` — Remove affected services from alert ✏️
 
 ## Audit Logs
 
@@ -93,6 +95,9 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - **JSM Ops - Delete heartbeat** — `DELETE /api/{cloudId}/v1/teams/{teamId}/heartbeats` — Delete heartbeat ✏️
 - **JSM Ops - Update heartbeat** — `PATCH /api/{cloudId}/v1/teams/{teamId}/heartbeats` — Update heartbeat ✏️
 - **JSM Ops - Ping Heartbeat** — `GET /api/{cloudId}/v1/teams/{teamId}/heartbeats/ping` — Ping Heartbeat
+- **JSM Ops - Ping Heartbeat (POST)** — `POST /api/{cloudId}/v1/teams/{teamId}/heartbeats/ping` — Ping Heartbeat (POST) ✏️
+- **JSM Ops - Ping Heartbeat (PUT)** — `PUT /api/{cloudId}/v1/teams/{teamId}/heartbeats/ping` — Ping Heartbeat (PUT) ✏️
+- **JSM Ops - Ping Heartbeat (PATCH)** — `PATCH /api/{cloudId}/v1/teams/{teamId}/heartbeats/ping` — Ping Heartbeat (PATCH) ✏️
 
 ## Integrations
 

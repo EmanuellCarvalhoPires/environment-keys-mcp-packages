@@ -1,0 +1,40 @@
+name: Sync Atlassian API specs
+
+# Every Monday, compare each package with the official Atlassian OpenAPI document and, when something
+# changed, open a pull request with the regenerated databases and a report of what was added or removed.
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compare with the official specs and regenerate
+        run: |
+          set +e
+          python scripts/sync_specs.py --apply --prune --report "$RUNNER_TEMP/sync-report.md"
+          code=$?
+          # 10 = something changed (not an error); anything else non-zero is a real failure
+          if [ "$code" -ne 0 ] && [ "$code" -ne 10 ]; then exit "$code"; fi
+
+      - name: Open or update the pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/sync-atlassian-specs
+          delete-branch: true
+          commit-message: "chore: sync MCP packages with the official Atlassian specs"
+          title: "Sync MCP packages with the official Atlassian specs"
+          body-path: ${{ runner.temp }}/sync-report.md
+          labels: automated
