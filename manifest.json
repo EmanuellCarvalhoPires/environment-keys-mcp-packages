@@ -12,7 +12,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 61,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1",
+      "updatedAt": "2026-11-10T20:14:37Z"
     },
     {
       "id": "automation",
@@ -25,7 +28,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 15,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "1.1",
+      "updatedAt": "2026-11-10T20:14:37Z"
     },
     {
       "id": "bitbucket",
@@ -33,12 +39,15 @@
       "tag": "api/app/bitbucket",
       "logo": "bitbucket",
       "path": "packages/bitbucket",
-      "toolCount": 265,
+      "toolCount": 272,
       "requestOnlyCount": 3,
       "serviceTag": "bitbucket/workspace",
       "serviceTemplate": "templates/bitbucket-workspace.md",
-      "requestCount": 268,
-      "database": "mcp.db"
+      "requestCount": 275,
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "2.0",
+      "updatedAt": "2026-11-10T20:14:37Z"
     },
     {
       "id": "confluence-v1",
@@ -52,7 +61,10 @@
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 130,
       "groupId": "confluence",
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "1.0.0",
+      "updatedAt": "2026-11-10T20:14:32Z"
     },
     {
       "id": "confluence-v2",
@@ -60,13 +72,16 @@
       "tag": "api/app/confluence",
       "logo": "confluence",
       "path": "packages/confluence-v2",
-      "toolCount": 218,
+      "toolCount": 252,
       "requestOnlyCount": 0,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 218,
+      "requestCount": 252,
       "groupId": "confluence",
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "2.0.0",
+      "updatedAt": "2026-11-10T20:14:32Z"
     },
     {
       "id": "csm",
@@ -93,7 +108,10 @@
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 34,
       "groupId": "jsm",
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "0.0.0-alpha",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "jsm",
@@ -101,13 +119,16 @@
       "tag": "api/app/jsm",
       "logo": "jsm",
       "path": "packages/jsm",
-      "toolCount": 73,
+      "toolCount": 74,
       "requestOnlyCount": 1,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 74,
+      "requestCount": 75,
       "groupId": "jsm",
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1001.0.0-SNAPSHOT-37bdb440188c5b94db5486d134b4d3bbf7517e25",
+      "updatedAt": "2026-11-10T20:14:31Z"
     },
     {
       "id": "jsm-ops",
@@ -116,12 +137,15 @@
       "logo": "jsm",
       "path": "packages/jsm-ops",
       "toolCount": 0,
-      "requestOnlyCount": 240,
+      "requestOnlyCount": 245,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 240,
+      "requestCount": 245,
       "groupId": "jsm",
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "jsw",
@@ -134,7 +158,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 105,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "1001.0.0",
+      "updatedAt": "2026-11-10T20:14:31Z"
     },
     {
       "id": "jira-v3",
@@ -142,12 +169,15 @@
       "tag": "api/app/jira",
       "logo": "jira",
       "path": "packages/jira-v3",
-      "toolCount": 552,
+      "toolCount": 564,
       "requestOnlyCount": 43,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 595,
-      "database": "mcp.db"
+      "requestCount": 607,
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1001.0.0-SNAPSHOT-37bdb440188c5b94db5486d134b4d3bbf7517e25",
+      "updatedAt": "2026-11-10T20:14:31Z"
     },
     {
       "id": "scim",
@@ -160,7 +190,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 24,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1.0",
+      "updatedAt": "2026-11-10T20:14:39Z"
     },
     {
       "id": "trello",
@@ -173,7 +206,10 @@
       "serviceTag": "trello/account",
       "serviceTemplate": "templates/trello-account.md",
       "requestCount": 261,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "0.0.1",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "admin-api-access",
@@ -186,7 +222,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 21,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1.0.0",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "admin-control",
@@ -199,7 +238,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 22,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "1.0.0",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "admin-dlp",
@@ -212,7 +254,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 8,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "1.0.0",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "admin-orgs",
@@ -221,11 +266,14 @@
       "logo": "admin",
       "path": "packages/admin-orgs",
       "toolCount": 0,
-      "requestOnlyCount": 45,
+      "requestOnlyCount": 51,
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
-      "requestCount": 45,
-      "database": "mcp.db"
+      "requestCount": 51,
+      "database": "mcp.db",
+      "version": "1.1.0",
+      "specVersion": "1.0",
+      "updatedAt": "2026-11-10T20:14:38Z"
     },
     {
       "id": "admin-users",
@@ -238,7 +286,10 @@
       "serviceTag": "atlassian/instance",
       "serviceTemplate": "templates/atlassian-instance.md",
       "requestCount": 10,
-      "database": "mcp.db"
+      "database": "mcp.db",
+      "version": "1.0.0",
+      "specVersion": "0.0.1",
+      "updatedAt": "2026-11-10T20:14:39Z"
     }
   ]
 }

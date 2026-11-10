@@ -7,7 +7,7 @@ up: "[[MCP Tools]]"
 ---
 # MCP - JSM
 
-- **Tools:** 73 (exposed: 6; the others via `run_vault_tool`)
+- **Tools:** 74 (exposed: 6; the others via `run_vault_tool`)
 - **Requests only:** 1
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/jira/service-desk/rest/
@@ -17,6 +17,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 ## Assets
 
 - `jsm_get_assets_workspaces` — `GET /rest/servicedeskapi/assets/workspace` — Get assets workspaces ⭐
+- `jsm_get_insight_workspaces` — `GET /rest/servicedeskapi/insight/workspace` — Get insight workspaces
 
 ## Customer
 

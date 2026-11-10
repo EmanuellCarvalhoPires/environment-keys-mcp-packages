@@ -7,7 +7,7 @@ up: "[[MCP Tools]]"
 ---
 # MCP - Confluence v2
 
-- **Tools:** 218 (exposed: 7; the others via `run_vault_tool`)
+- **Tools:** 252 (exposed: 7; the others via `run_vault_tool`)
 - **Requests only:** 0
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/confluence/rest/v2/
@@ -174,6 +174,10 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `confluence_create_database` — `POST /databases` — Create database ✏️
 - `confluence_get_database_by_id` — `GET /databases/{id}` — Get database by id
 - `confluence_delete_database` — `DELETE /databases/{id}` — Delete database ✏️
+- `confluence_get_fields_for_database` — `GET /databases/{id}/fields` — Get fields for database
+- `confluence_get_views_for_database` — `GET /databases/{id}/views` — Get views for database
+- `confluence_get_entries_for_database` — `GET /databases/{id}/entries` — Get entries for database
+- `confluence_get_entry_by_id` — `GET /databases/{id}/entries/{entryId}` — Get entry by id
 
 ## Data Policies
 
@@ -321,3 +325,36 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `confluence_create_whiteboard` — `POST /whiteboards` — Create whiteboard ✏️
 - `confluence_get_whiteboard_by_id` — `GET /whiteboards/{id}` — Get whiteboard by id
 - `confluence_delete_whiteboard` — `DELETE /whiteboards/{id}` — Delete whiteboard ✏️
+
+## Content Permissions
+
+- `confluence_get_page_restriction_state` — `GET /pages/{id}/restriction-state` — Get page restriction state
+- `confluence_set_page_restriction_state` — `PUT /pages/{id}/restriction-state` — Set page restriction state ✏️
+- `confluence_get_blog_post_restriction_state` — `GET /blogposts/{id}/restriction-state` — Get blog post restriction state
+- `confluence_set_blog_post_restriction_state` — `PUT /blogposts/{id}/restriction-state` — Set blog post restriction state ✏️
+- `confluence_get_database_restriction_state` — `GET /databases/{id}/restriction-state` — Get database restriction state
+- `confluence_set_database_restriction_state` — `PUT /databases/{id}/restriction-state` — Set database restriction state ✏️
+- `confluence_get_whiteboard_restriction_state` — `GET /whiteboards/{id}/restriction-state` — Get whiteboard restriction state
+- `confluence_set_whiteboard_restriction_state` — `PUT /whiteboards/{id}/restriction-state` — Set whiteboard restriction state ✏️
+- `confluence_get_folder_restriction_state` — `GET /folders/{id}/restriction-state` — Get folder restriction state
+- `confluence_set_folder_restriction_state` — `PUT /folders/{id}/restriction-state` — Set folder restriction state ✏️
+- `confluence_get_page_permissions` — `GET /pages/{id}/permissions` — Get page permissions
+- `confluence_add_page_permissions` — `POST /pages/{id}/permissions` — Add page permissions ✏️
+- `confluence_set_page_permissions` — `PUT /pages/{id}/permissions` — Set page permissions ✏️
+- `confluence_delete_page_permissions` — `DELETE /pages/{id}/permissions` — Delete page permissions ✏️
+- `confluence_get_blog_post_permissions` — `GET /blogposts/{id}/permissions` — Get blog post permissions
+- `confluence_add_blog_post_permissions` — `POST /blogposts/{id}/permissions` — Add blog post permissions ✏️
+- `confluence_set_blog_post_permissions` — `PUT /blogposts/{id}/permissions` — Set blog post permissions ✏️
+- `confluence_delete_blog_post_permissions` — `DELETE /blogposts/{id}/permissions` — Delete blog post permissions ✏️
+- `confluence_get_database_permissions` — `GET /databases/{id}/permissions` — Get database permissions
+- `confluence_add_database_permissions` — `POST /databases/{id}/permissions` — Add database permissions ✏️
+- `confluence_set_database_permissions` — `PUT /databases/{id}/permissions` — Set database permissions ✏️
+- `confluence_delete_database_permissions` — `DELETE /databases/{id}/permissions` — Delete database permissions ✏️
+- `confluence_get_whiteboard_permissions` — `GET /whiteboards/{id}/permissions` — Get whiteboard permissions
+- `confluence_add_whiteboard_permissions` — `POST /whiteboards/{id}/permissions` — Add whiteboard permissions ✏️
+- `confluence_set_whiteboard_permissions` — `PUT /whiteboards/{id}/permissions` — Set whiteboard permissions ✏️
+- `confluence_delete_whiteboard_permissions` — `DELETE /whiteboards/{id}/permissions` — Delete whiteboard permissions ✏️
+- `confluence_get_folder_permissions` — `GET /folders/{id}/permissions` — Get folder permissions
+- `confluence_add_folder_permissions` — `POST /folders/{id}/permissions` — Add folder permissions ✏️
+- `confluence_set_folder_permissions` — `PUT /folders/{id}/permissions` — Set folder permissions ✏️
+- `confluence_delete_folder_permissions` — `DELETE /folders/{id}/permissions` — Delete folder permissions ✏️

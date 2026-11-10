@@ -7,7 +7,7 @@ up: "[[MCP Tools]]"
 ---
 # MCP - Jira v3
 
-- **Tools:** 552 (exposed: 13; the others via `run_vault_tool`)
+- **Tools:** 564 (exposed: 13; the others via `run_vault_tool`)
 - **Requests only:** 43
 - **Instance:** `instance` parameter — notes tagged `atlassian/instance`
 - **Official documentation:** https://developer.atlassian.com/cloud/jira/platform/rest/v3/
@@ -213,6 +213,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `jira_remove_issue_types_from_context` — `POST /rest/api/3/field/{fieldId}/context/{contextId}/issuetype/remove` — Remove issue types from context ✏️
 - `jira_assign_custom_field_context_to_projects` — `PUT /rest/api/3/field/{fieldId}/context/{contextId}/project` — Assign custom field context to projects ✏️
 - `jira_remove_custom_field_context_from_projects` — `POST /rest/api/3/field/{fieldId}/context/{contextId}/project/remove` — Remove custom field context from projects ✏️
+- `jira_set_default_values_for_a_custom_field_by_context_and_issue_type` — `PUT /rest/api/3/field/{fieldId}/context/defaultValues` — Set default values for a custom field by context and issue type ✏️
 
 ## Issue custom field options
 
@@ -479,6 +480,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `jira_parse_jql_query` — `POST /rest/api/3/jql/parse` — Parse JQL query
 - `jira_convert_user_identifiers_to_account_ids_in_jql_queries` — `POST /rest/api/3/jql/pdcleaner` — Convert user identifiers to account IDs in JQL queries
 - `jira_sanitize_jql_queries` — `POST /rest/api/3/jql/sanitize` — Sanitize JQL queries
+- `jira_get_invalid_jql_searches` — `GET /rest/api/3/invalid-jqls-access-log` — Get invalid JQL searches
 
 ## JQL functions (apps)
 
@@ -810,6 +812,7 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 - `jira_get_user_groups` — `GET /rest/api/3/user/groups` — Get user groups
 - `jira_get_all_users_default` — `GET /rest/api/3/users` — Get all users default
 - `jira_get_all_users` — `GET /rest/api/3/users/search` — Get all users
+- `jira_create_user` — `POST /rest/api/3/user` — Create user ✏️
 
 ## Webhooks
 
@@ -902,3 +905,18 @@ Legend: ✏️ writes data · 🔒 restricted (Connect/Forge app or OAuth) · �
 ## Other operations
 
 - `jira_get_worklogs_by_issue_id_and_worklog_id` — `POST /rest/internal/api/latest/worklog/bulk` — Get worklogs by issue id and worklog id
+
+## Agents
+
+- `jira_bulk_start_agent_sessions_batch` — `POST /rest/api/3/agents/bulk/invoke/batch` — Bulk start agent sessions (batch) ✏️
+- `jira_bulk_start_agent_sessions_uniform` — `POST /rest/api/3/agents/bulk/invoke/uniform` — Bulk start agent sessions (uniform) ✏️
+
+## Policies
+
+- `jira_get_all_policies` — `GET /rest/api/3/policies` — Get all policies
+- `jira_get_project_policy_state` — `GET /rest/api/3/policies/project/{projectIdOrKey}` — Get project policy state
+- `jira_set_the_policies_applied_to_a_project` — `PUT /rest/api/3/policies/project/{projectIdOrKey}/policies` — Set the policies applied to a project ✏️
+- `jira_get_project_policy_rules` — `GET /rest/api/3/policies/project/{projectIdOrKey}/rules` — Get project policy rules
+- `jira_validate_policy_application_to_a_project` — `POST /rest/api/3/policies/project/{projectIdOrKey}/validate` — Validate policy application to a project ✏️
+- `jira_apply_a_policy_to_projects` — `POST /rest/api/3/policies/{policyId}/apply` — Apply a policy to projects ✏️
+- `jira_remove_a_policy_from_projects` — `POST /rest/api/3/policies/{policyId}/remove` — Remove a policy from projects ✏️

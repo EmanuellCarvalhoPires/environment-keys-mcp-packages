@@ -1,0 +1,162 @@
+{
+  "_comment": "One entry per package in packages/. spec_url is the official OpenAPI/Swagger document. base + the operation path (service_params rewritten to {{service.*}}) is the URL written in each request note. Packages without spec_url are skipped (no public spec found).",
+  "packages": {
+    "jira-v3": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/jira/platform/swagger-v3.v3.json",
+      "title_prefix": "Jira v3",
+      "tool_prefix": "jira",
+      "base": "{{service.url}}",
+      "service_params": {},
+      "request_only_prefixes": ["/rest/atlassian-connect/", "/rest/forge/"],
+      "request_runner": "atlassian_request"
+    },
+    "jsw": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/jira/software/swagger.v3.json",
+      "title_prefix": "JSW",
+      "tool_prefix": "jsw",
+      "base": "{{service.url}}",
+      "service_params": {},
+      "request_only_prefixes": ["/rest/devinfo/", "/rest/builds/", "/rest/deployments/", "/rest/devopscomponents/", "/rest/featureflags/", "/rest/remotelinks/", "/rest/security/"],
+      "request_runner": "atlassian_request"
+    },
+    "jsm": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/jira/service-desk/swagger.v3.json",
+      "title_prefix": "JSM",
+      "tool_prefix": "jsm",
+      "base": "{{service.url}}",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "confluence-v1": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/confluence/swagger.v3.json",
+      "title_prefix": "Confluence v1",
+      "tool_prefix": "confluence_v1",
+      "base": "{{service.url}}",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "confluence-v2": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/confluence/openapi-v2.v3.json",
+      "title_prefix": "Confluence v2",
+      "tool_prefix": "confluence",
+      "base": "{{service.url}}/wiki/api/v2",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "bitbucket": {
+      "spec_url": "https://api.bitbucket.org/swagger.json",
+      "title_prefix": "Bitbucket",
+      "tool_prefix": "bitbucket",
+      "base": "{{service.url}}",
+      "service_params": {"workspace": "workspace"},
+      "request_only_prefixes": [],
+      "request_runner": "bitbucket_request"
+    },
+    "jsm-assets": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/assets/swagger.v3.json",
+      "title_prefix": "Assets",
+      "tool_prefix": "assets",
+      "base": "https://api.atlassian.com/ex/jira/{{service.cloud_id}}/jsm/assets/workspace/{{service.assets_workspace_id}}/v1",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "automation": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/automation/swagger.v3.json",
+      "title_prefix": "Automation",
+      "tool_prefix": "automation",
+      "base": "{{service.url}}/gateway/api/automation/public/{{param:product}}/{{service.cloud_id}}",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "forms": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/forms/swagger.v3.json",
+      "title_prefix": "Forms",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com/jira/forms/cloud/{{service.cloud_id}}",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "jsm-ops": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/jira/service-desk-ops/swagger.v3.json",
+      "title_prefix": "JSM Ops",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com/jsm/ops",
+      "service_params": {"cloudId": "cloud_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "trello": {
+      "spec_url": "https://developer.atlassian.com/cloud/trello/swagger.json",
+      "title_prefix": "Trello",
+      "tool_prefix": null,
+      "base": "{{service.url}}",
+      "service_params": {},
+      "request_only_prefixes": [],
+      "request_runner": "trello_request"
+    },
+    "admin-api-access": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/api-access/swagger.v3.json",
+      "title_prefix": "Admin API Access",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com/admin/api-access/v1",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "admin-control": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/control/swagger.v3.json",
+      "title_prefix": "Admin Control",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "admin-dlp": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/dlp/swagger.v3.json",
+      "title_prefix": "Admin DLP",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com/admin/dlp/v1",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "admin-orgs": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/organization/swagger.v3.json",
+      "title_prefix": "Admin Orgs",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com/admin",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "admin-users": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/user-management/swagger.v3.json",
+      "title_prefix": "Admin Users",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "scim": {
+      "spec_url": "https://dac-static.atlassian.com/cloud/admin/user-provisioning/swagger.v3.json",
+      "title_prefix": "SCIM",
+      "tool_prefix": null,
+      "base": "https://api.atlassian.com",
+      "service_params": {"orgId": "org_id"},
+      "request_only_prefixes": [],
+      "request_runner": "atlassian_request"
+    },
+    "csm": {
+      "spec_url": null,
+      "note": "No public OpenAPI document found for CSM; package is maintained by hand."
+    }
+  }
+}
